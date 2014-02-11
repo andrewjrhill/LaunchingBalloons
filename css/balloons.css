@@ -1,0 +1,192 @@
+/* Browser Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-weight: normal;
+    font-size: 16px
+}
+
+/* Header */
+
+#page-header {
+    width: 100%;
+    height: 125px;
+    background-color: #283e56;
+    text-decoration: none;
+}
+.flare-top {
+    height: 5px;
+    width: 100%;
+    background-color: #37b0e9;
+}
+#header-container {
+    padding: 40px 18% 0 18%;
+    min-width: 910px;
+    color: #f8f8f8;
+}
+
+/* Logo */
+
+#logo {
+    float: left;
+    font-size: 24px;
+    width: 396px;
+}
+#logo img {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+#logo span {
+}
+
+/* Navigation */
+
+#nav ul{
+    float: right;
+    list-style-type: none;
+    color: #f8f8f8;
+    font-size: 14px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#nav ul li {
+    float: left;
+    margin-right: 45px;
+}
+#nav a {
+    color: #f8f8f8;
+}
+.nav-hover {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #37b0e9;
+}
+.last-nav {
+    margin-top: -10px;
+    margin-left: -2px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: #37b0e9;
+    border-radius: 5px;
+    color: #283e56;
+    font-weight: bold;
+}
+.last-nav-hover {
+    background-color: #ffd666;
+    color: #283e56;
+}
+
+/* Learn How */
+
+#learn-how-bg {
+    height: 650px;
+    background-color: #37b0e9;
+    background-image: url('../img/learn-how-bg.png');
+    background-repeat: no-repeat;
+}
+#learn-how {
+    padding: 120px 0 0 22%;
+    font-size: 54px;
+    color: #f8f8f8;
+}
+#learn-how span {
+    font-size: 45px;
+}
+#learn-how p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+#learn-how a {
+    color: #f8f8f8;
+    text-decoration: none;
+}
+.get-started-button {
+    font-size: 14px;
+    width: 99px;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #0074ad;
+    border: 3px solid #0074ad;
+    color: #f8f8f8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.get-started-button-hover {
+    background-color: #ffd666;
+    border: 3px solid #ffd666;
+    color: #283e56 !important;
+}
+
+/* Our Process */
+
+#our-process-bg {
+    height: 900px;
+    background-color: #f8f8f8;
+}
+
+/* Meet The Team */
+
+#meet-team-bg {
+    color: #f8f8f8;
+    height: 900px;
+    background: #283e56;
+    background-image: url('../img/meet-team-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0% 85%;
+}
+.meet-team > h1 {
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+    text-align: center;
+    width: 1000px;
+}
+.meet-team > h3 {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    padding: 10px 0 100px 0;
+}
+.meet-team-blurbs-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.meet-team-blurbs-wrapper img {
+    display: block;
+    width: 94px;
+    margin: 50px auto 50px auto;
+}
+.meet-team-blurbs {
+    width: 340px;
+    margin-right: 60px;
+    float: left;
+}
+.meet-team-blurbs p {
+    margin: 15px 0 0 0;
+    line-height: 25px;
+}
+.meet-team-name {
+    font-weight: bold;
+    text-align: center;
+}
+.meet-team-role {
+    text-align: center;
+    color: #37b0e9;
+    font-size: 14px;
+}
+
+

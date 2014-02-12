@@ -136,8 +136,8 @@ h3 {
     width: 99px;
     text-transform: uppercase;
     padding: 20px;
-    background-color: #0074ad;
-    border: 3px solid #0074ad;
+    background-color: #386799;
+    border: 3px solid #386799;
     color: #f8f8f8;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -158,7 +158,7 @@ h3 {
 .our-process {
     width: 900px;
     margin: 0 auto;
-    color: #0074ad;
+    color: #386799;
 }
 .our-process > h1 {
     margin: 0 auto;

@@ -1,3 +1,24 @@
+table { 
+	width: 80%; 
+	border-collapse: collapse; 
+	margin:auto;
+	border: 1px solid #fff; 
+}
+tr {
+	border: 1px solid #fff;
+}
+th { 
+  background: #FFFFFF; 
+  color: #283E56; 
+  font-weight: bold; 
+  padding: 6px; 
+  text-align: center; 
+}
+td { 
+  padding: 6px; 
+  text-align: center; 
+  border: 1px solid #fff;
+}
 .process li {
 	margin: 1.5%;
 }
@@ -26,25 +47,45 @@
 #required { 
   background: #37B0E9; 
 }
-table { 
+.payload tr:nth-of-type(odd) {
+	border: 1px solid #fff;
+	background: #37B0E9; 
+}
+.payload table { 
 	width: 80%; 
 	border-collapse: collapse; 
 	margin:auto;
-	border: 1px solid #fff; 
-
+	border: 1px solid #283E56; 
 }
-tr {
-	border: 1px solid #fff;
+.payload tr {
+	border: 1px solid #283E56;
 }
-th { 
-  background: #FFFFFF; 
-  color: #283E56; 
+.payload th { 
+  background: #283E56; 
+  color: #fff; 
   font-weight: bold; 
-  padding: 6px; 
+  padding: 2px; 
   text-align: center; 
+  border: 1px solid #283E56;
 }
-td { 
-  padding: 6px; 
+.payload td { 
+  padding: 2px; 
   text-align: center; 
-  border: 1px solid #fff;
+  border: 1px solid #283E56;
+}
+.payload h3 {
+	margin-top: 4%;
+	margin-bottom: 1%;
+}
+.payload ol {
+	display: inline-block;
+	margin: auto;
+	text-align: left;
+	width: 50%;
+}
+.payload li {
+	text-align: left;
+}
+#payloadpart {
+	width: 50%;
 }

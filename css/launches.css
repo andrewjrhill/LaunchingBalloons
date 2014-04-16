@@ -31,11 +31,11 @@ h4 {
 	text-decoration: underline;
 	font-size: 22px;
 }
-a {
+.rawdata a {
 	color: #386799;
 	font-weight: bold;
 }
-a:hover {
+.rawdata a:hover {
 	color: #386799;
 	text-decoration: none;
 	font-weight: bold;

@@ -14,3 +14,29 @@
     width: 100%;
     height: 100%;
 }
+.img-rsp{
+	max-width: 100%;
+	height: auto;
+}
+.rawdata li {
+	list-style-type: none;
+	text-align: center;
+}
+h3 {
+	font-size: 1.85em;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+h4 {
+	text-decoration: underline;
+	font-size: 22px;
+}
+a {
+	color: #386799;
+	font-weight: bold;
+}
+a:hover {
+	color: #386799;
+	text-decoration: none;
+	font-weight: bold;
+}

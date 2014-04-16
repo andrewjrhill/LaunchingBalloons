@@ -15,6 +15,28 @@
   .navigation .mobile {
     display: block;
   }
+  .navigation .mobile ul {
+    background-color: #e2e2e2;
+    margin: 0;
+    display: none;
+    padding: 5px 0;
+    list-style-type: none;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+  }
+  .navigation .mobile li {
+    padding: 15px 0;
+    margin: 0 40px;
+    border-bottom: 1px solid #2e4662;
+  }
+  .navigation .mobile .last {
+    border: none;
+  }
+  .navigation .mobile a {
+    text-decoration: none;
+    color: #283e56;
+  }
   .navigation .wrapper {
     padding: 20px 0 0 0;
   }
@@ -52,17 +74,13 @@
     padding: 50px 40px 20px 40px;
   }
   .footer .affiliates {
-    float: none;
+    display: none;
   }
-  .footer .affiliates ul {
-    padding: 0;
-  }
-  .footer .affiliates li {
-    float: none;
-    padding: 10px 0 0 0;
+  .footer .logo {
+    font-size: 18px;
   }
   .footer .logo span {
-    margin: 0;
+    display: none;
   }
   .footer .copyright {
     text-align: center;

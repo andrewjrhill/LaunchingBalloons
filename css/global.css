@@ -1,171 +1,163 @@
 /* Browser Reset */
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
 
-h1 {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
 }
-h3 {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
+.hide {
+  display: none;
 }
-
-/* Header */
-
-#page-header {
-    width: 100%;
-    height: 125px;
-    background-color: #283e56;
-    text-decoration: none;
-}
-#header-container {
-    padding: 40px 18% 0 18%;
-    min-width: 910px;
-    color: #f8f8f8;
-    border-top: 5px solid #37b0e9;
-}
-#header-container a {
-    color: #f8f8f8;
-}
-
-/* Logo */
-
-#logo {
-    float: left;
-    font-size: 24px;
-    width: 400px;
-    margin-left: 20px;
-}
-#logo img {
-    vertical-align: middle;
-    padding-right: 20px;
-}
-#logo span {
+.clear {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Navigation */
 
-#navigation {
-    width: 1100px;
+.navigation .mobile {
+  display: none;
 }
-#navigation ul{
-    float: right;
-    list-style-type: none;
-    color: #f8f8f8;
-    font-size: 14px;
-    margin-top: 12px;
-    text-transform: uppercase;
-    text-decoration: none;
+
+.navigation {
+  min-width: 961px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  font-size: 14px;
+  height: 120px;
+  border-top: 5px solid #37b0e9;
+  background-color: #283e56;
+  text-transform: uppercase;
 }
-#navigation ul li {
-    float: left;
-    margin-right: 35px;
+.navigation .wrapper {
+  max-width: 1280px;
+  padding: 40px 75px 0 75px;
+  margin: 0 auto;
 }
-#navigation a {
-    color: #f8f8f8;
+.navigation .logo {
+  float: left;
+  font-size: 24px;
+  display: block;
+  text-transform: none;
 }
-.navigation-hover {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 10px solid #37b0e9;
+.navigation img {
+  vertical-align: middle;
 }
-.last-navigation {
-    background-color: #37b0e9;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    color: #283e56;
-    font-weight: bold;
-    margin-top: -10px;
-    margin-left: -2px;
-    padding: 10px;
-    width: 160px;
+.navigation .community a {
+  background-color: #37b0e9;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #283e56 !important;
+  font-weight: bold;
+  margin-top: -10px;
+  padding: 10px;
+  width: 190px;
 }
-.last-navigation-hover {
-    background-color: #ffd666;
-    color: #283e56;
+.navigation .desktop {
+  float: right;
 }
-.help-tooltip {
-    position: absolute;
-    background-color: #ffd666;
-    color: #283e56;
-    margin-top: 5px;
-    padding: 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    color: #283e56;
-    width: 160px;
-    text-transform: none;
+.navigation .desktop ul {
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+.navigation .desktop li {
+  float: left;
+  list-style-type: none;
+  color: #fff;
+  margin: 0 10px;
+}
+.navigation .desktop li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Limit */
+.limit {
+  width: 100%;
+}
+
+/* Content */
+.content {
+  margin-top: 125px;
 }
 
 /* Footer */
+.footer {
+  padding: 50px 75px 20px 75px;
+  color: #2e4662;
+  background-color: #e2e2e2;
+}
+.footer .logo {
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  text-transform: none;
+  padding-bottom: 20px;
+}
+.footer .logo img {
+  vertical-align: middle;
+  padding-right: 14px;
+}
+.footer .logo span {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-left: 235px;
+  display: block;
+}
+.footer .affiliates {
+  float: right;
+}
+.footer .spacer {
+  margin: auto;
+  width: 100%;
+  max-width: 1280px;
+}
+.footer .affiliates li {
+  float: left;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 0 20px 30px ;
+}
+.footer .affiliates li a{
+  text-decoration: none;
+  color: #2e4662;
+}
+.footer .copyright {
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #2e4662;
+  text-align: right;
+  font-weight: bold;
+  color: #2e4662;
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
-.page-footer {
-    height: 260px;
-    width: 100%;
-    background-color: #e2e2e2;
-}
-.page-footer a {
-    color: #2e4662;
-    text-decoration: none;
-}
-.footer-container {
-    margin: 0 auto;
-    width: 1100px;
-    text-align: right;
-}
-.footer-logo {
-    font-size: 28px;
-    color: #2e4662;
-    font-weight: bold;
-    padding: 65px 65px 0 0;
-    float: left;
-}
-.footer-logo span {
-    font-size: 14px;
-    font-weight: normal;
-    text-transform: uppercase;
-    margin-left: 235px;
-    display: block;
-}
-.footer-logo img {
-    vertical-align: middle;
-    padding-right: 20px;
-}
-.footer-navigation {
-    color: #2e4662;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding-top: 92px;
-    float: left;
-    margin-left: 120px;
-}
-.footer-navigation a {
-    list-style-type: none;
-    text-decoration: none;
-    color: #2e4662;
-    float: left;
-    padding-left: 40px;
-}
-.footer-copyright {
-    float: left;
-    width: 100%;
-    margin-top: 65px;
-    padding-top: 20px;
-    border-top: 1px solid #2e4662;
-    text-align: right;
-    font-weight: bold;
-    color: #2e4662;
-    font-size: 12px;
-    text-transform: uppercase;
-}
+/*<div class="footer">
+  <div class="logo"><img src="img/global/logo/logo-reg.png">Launching Balloons<span>Operations</span></div>
+  <div class="affiliates">
+    <ul>
+      <li><a href="#">Get Started</a></li>
+      <li><a href="#">Launches</a></li>
+      <li><a href="#">Forum</a></li>
+      <li><a href="#">Store</a></li>
+      <li><a href="#">Help The Community</a></li>
+    </ul>
+    <div class="copyright">&copy; copyright 2014 launchingballoons.com</div>
+  </div>
+</div>*/

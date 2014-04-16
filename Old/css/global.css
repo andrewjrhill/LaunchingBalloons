@@ -1,0 +1,176 @@
+/* Browser Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.hide {
+    display: none;
+}
+
+/* Header */
+
+#page-header {
+    width: 100%;
+    height: 125px;
+    background-color: #283e56;
+    text-decoration: none;
+}
+#header-container {
+    padding: 40px 18% 0 18%;
+    min-width: 910px;
+    color: #f8f8f8;
+    border-top: 5px solid #37b0e9;
+}
+#header-container a {
+    color: #f8f8f8;
+}
+
+/* Logo */
+
+#logo {
+    float: left;
+    font-size: 24px;
+    width: 400px;
+    margin-left: 20px;
+}
+#logo img {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+#logo span {
+}
+
+/* Navigation */
+
+#navigation {
+    width: 1100px;
+}
+#navigation ul{
+    float: right;
+    list-style-type: none;
+    color: #f8f8f8;
+    font-size: 14px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#navigation ul li {
+    float: left;
+    margin-right: 35px;
+}
+#navigation a {
+    color: #f8f8f8;
+}
+.navigation-hover {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #37b0e9;
+}
+.last-navigation {
+    background-color: #37b0e9;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #283e56;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: -2px;
+    padding: 10px;
+    width: 160px;
+}
+.last-navigation-hover {
+    background-color: #ffd666;
+    color: #283e56;
+}
+.help-tooltip {
+    position: absolute;
+    background-color: #ffd666;
+    color: #283e56;
+    margin-top: 5px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #283e56;
+    width: 160px;
+    text-transform: none;
+}
+
+/* Footer */
+
+.page-footer {
+    height: 100%;
+    width: 100%;
+    background-color: #e2e2e2;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.page-footer a {
+    color: #2e4662;
+    text-decoration: none;
+}
+.footer-container {
+    margin: 0 auto;
+    width: 1100px;
+    text-align: right;
+}
+.footer-logo {
+    font-size: 28px;
+    color: #2e4662;
+    font-weight: bold;
+    padding: 65px 65px 0 0;
+    float: left;
+}
+.footer-logo span {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 235px;
+    display: block;
+}
+.footer-logo img {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+.footer-navigation {
+    color: #2e4662;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-top: 20px;
+    float: right;
+    margin-left: 120px;
+}
+.footer-navigation a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #2e4662;
+    float: left;
+    padding-left: 40px;
+}
+.footer-copyright {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #2e4662;
+    text-align: right;
+    font-weight: bold;
+    color: #2e4662;
+    font-size: 12px;
+    text-transform: uppercase;
+}

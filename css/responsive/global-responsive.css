@@ -1,0 +1,71 @@
+
+/* Responsive Global Styles */
+
+@media screen and (max-width: 960px) {
+
+  /* Responsive Navigation */
+  .navigation {
+    height: 150px;
+    width: 100%;
+    min-width: 100%;
+  }
+  .navigation .desktop {
+    display: none;
+  }
+  .navigation .mobile {
+    display: block;
+  }
+  .navigation .wrapper {
+    padding: 20px 0 0 0;
+  }
+  .logo {
+    margin: 0 auto;
+    text-align: center;
+    float: none !important;
+  }
+  .mobile {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .button {
+    background-color: black;
+    margin: 0 auto;
+    background-color: #37b0e9;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #283e56;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 200px;
+    font-weight: bold;
+  }
+
+  /* Responsive Content */
+  .content {
+    margin-top: 155px;
+  }
+
+  /* Responsive Footer */
+  .footer {
+    padding: 50px 40px 20px 40px;
+  }
+  .footer .affiliates {
+    float: none;
+  }
+  .footer .affiliates ul {
+    padding: 0;
+  }
+  .footer .affiliates li {
+    float: none;
+    padding: 10px 0 0 0;
+  }
+  .footer .logo span {
+    margin: 0;
+  }
+  .footer .copyright {
+    text-align: center;
+  }
+
+}

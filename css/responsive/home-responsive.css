@@ -1,0 +1,43 @@
+@media screen and (max-width: 960px) {
+
+  /* Responsive Introduction */
+  .intro {
+    padding: 40px;
+  }
+  .intro h2 {
+    font-size: 25px;
+  }
+  .intro h2 span {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  /* Responsive Process */
+  .process {
+    padding: 40px;
+  }
+  .process h2 {
+    font-size: 25px;
+  }
+  .process h2 span {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  /* Responsive Collegues */
+  .collegues {
+    padding: 40px;
+  }
+  .collegues h2 {
+    font-size: 25px;
+  }
+  .collegues .info-block-container {
+    padding-top: 0;
+  }
+  .collegues .info-block {
+    padding-top: 30px;
+    float: none;
+    width: 100%;
+  }
+
+}

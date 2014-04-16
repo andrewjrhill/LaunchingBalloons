@@ -6,81 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Launching Balloons is a website dedicated to photographing earth and space from the bottom of a weather balloon. ">
     <meta name="author" content="Andrew Hill">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/global/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/global/favicon.ico" type="image/x-icon">
     <link href="css/global.css" rel="stylesheet" type="text/css"/>
-    <link href="css/balloons.css" rel="stylesheet" type="text/css"/>
+    <link href="css/responsive/global-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="css/home.css" rel="stylesheet" type="text/css"/>
+    <link href="css/responsive/home-responsive.css" rel="stylesheet" type="text/css"/>
   </head>
 
   <body>
-    <div id="page-header">
-      <div id="header-container">
-        <a href="index.html"><div id="logo"><img src="img/logo-reg.png"><span>Launching</span>Balloons</div></a>
-        <div id="navigation">
-          <ul>
-            <a href="#"><li>Launches</li></a>
-            <a href="#"><li>Forum</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Store</li></a>
-            <a href="donate.html"><li class="last-navigation">Help The Community</li></a>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div id="page-body">
-      <div id="learn-how-container">
-        <div id="learn-how">
-          <span>Interested in sending a camera into space?</span><br />
-          Learn how here.
-          <p>We are a group of friends dedicated to photographing earth from space while hitching <br/>a ride on the bottom of a weather balloon. We hope to highlight the pros and cons to <br/>these endevours while attempting to give back to the science community <br/>with our efforts. </p>
-          <div><a href="#" class="get-started-button">Get Started</a></div>
-        </div>
-      </div>
-      <div id="our-process-container">
-        <div class="our-process">
-          <h1>With each launch we add to our technology and improve our process. Here is how we do it. </h1>
-          <h3>What we do is done by trial and error and extensive research. As with any scientific persuit, there are <span class="our-process-risk">very serious risks</span> involved with sending a weather balloon into space. We implore you tobrush up on our reccommended safety tips before persuing this venture any urther. We are in no way, shape or form liable or responsible for any injury, damage to property or incidents that may occur as a result of this information. <span class="our-process-risk">Proceed at your own risk!</span> Have fun out there. </h3>
-        </div>
-      </div>
-      <div id="meet-team-container">
-        <div class="meet-team">
-          <h1>We are an expanding group of collegues who continues to push each consecutive launch one step further. Meet the team. </h1>
-          <h3>We strive to improve on our designs and try new technologies in search of the best results possible with the least amount of risk</h3>
-          <div>
-            <div class="meet-team-blurbs-wrapper">
-              <div class="meet-team-blurbs">
-                <img src="img/meet-team-cole.png">
-                <span class="meet-team-name">Cole Gentry </span><span class="meet-team-role">Founder / Engineer / Financial Backer</span>
-                <p>A founding member of the team, Cole is the lead builder and engineer on our team. Having built the vast majority of our projects on his own time, Cole is an invaluable asset to the team in ensuring our projects continue to launch with the best results possible. </p>
+    <div class="page home">
+      <div class="pusher">
+        <div class="content">
+          <h1 class="hide">Launching Balloons | Learn How</h1>
+          <div class="limit">
+            <div class="intro">
+              <div class="spacer">
+                <h2>Interested in sending a camera into space?</h2>
+                <h2><span>Learn how here.</span></h2>
+                <p>We are a group of friends dedicated to photographing earth from space while hitching a ride on the bottom of a weather balloon. We hope to highlight the pros and cons to these endevours while attempting to give back to the scientific community with our efforts.</p>
+                <button>Get Started</button>
               </div>
-              <div class="meet-team-blurbs">
-                <img src="img/meet-team-andrew.png">
-                <span class="meet-team-name">Andrew Hill </span><span class="meet-team-role">Founder / Developer / Financial Backer</span>
-                <p>A founding member of the team, Andrew brings a wealth of enthusiasm and research to the team to ensure optimal designs. Assisting with reasearch and development, Andrew helps ensure the teams builds are safe and continue to launch with the best results possible. </p>
+            </div>
+            <div class="process">
+              <div class="spacer">
+                <h2>With each launch we add to our technology and improve our process. Here is how we do it.</h2>
+                <p>What we do is done by trial and error and extensive research. As with any scientific persuit, <span class="risk">there are very serious risks</span> involved with sending a weather balloon into space. We implore you to brush up on our reccommended safety tips before persuing this venture any further. We are in no way, shape or form liable or responsible for any injury, damage to property or incidents that may occur as a result of this information. <span class="risk">Proceed at your own risk!</span> Have fun out there.</p>
               </div>
-              <div class="meet-team-blurbs">
-                <img src="img/meet-team-lee.png">
-                <span class="meet-team-name">Lee Wilson </span><span class="meet-team-role">Newbie / Space Guru / Financial Backer</span>
-                <p>Having joined the team on the third planned launch, Lee brings a host of information about space andphysics to the table and we welcome his friendship and contributions to the team. </p>
+            </div>
+            <div class="collegues">
+              <div class="spacer">
+                <h2>We are an expanding group of collegues who continues to push each consecutive launch one step further. Meet the team.</h2>
+                <p>We strive to improve on our designs and try new technologies in search of the best results possible with the least amount of risk.</p>
+                <div class="info-block-container clear">
+                  <div class="info-block">
+                    <img src="img/collegues/cole.png" alt="Image of Cole Gentry">
+                    <div class="name">Cole Gentry<span>Founder, Engineer</span></div>
+                    <div>A founding member of the team, Cole is the lead builder and engineer on our team. Having built the vast majority of our projects on his own time, Cole is an invaluable asset to the team in ensuring our projects continue to launch with the best results possible.</div>
+                  </div>
+                  <div class="info-block">
+                    <img src="img/collegues/andrew.png" alt="Image of Andrew Hill">
+                    <div class="name">Andrew Hill<span>Founder, Developer</span></div>
+                    <div>A founding member of the team, Andrew brings a wealth of enthusiasm and research to the team to ensure optimal designs. Assisting with reasearch and development, Andrew helps ensure the teams builds are safe and continue to launch with the best results possible.</div>
+                  </div>
+                  <div class="info-block">
+                    <img src="img/collegues/lee.png" alt="Image of Lee Wilson">
+                    <div class="name">Lee Wilson<span>Producer, Space Guru</span></div>
+                    <div>Having joined the team on the third planned launch, Lee brings a host of information about space andphysics to the table and we welcome his friendship and contributions to the team.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navigation">
+            <div class="wrapper">
+              <div class="logo">
+                  <img src="../img/global/logo/logo-reg.png"/>
+                  LaunchingBalloons
+              </div>
+              <div class="mobile">
+                <div class="button"><a>&#9776;</a></div>
+              </div>
+              <div class="desktop">
+                <ul>
+                  <li><a href="#">Get Started</a></li>
+                  <li><a href="#">Launches</a></li>
+                  <li><a href="#">Forum</a></li>
+                  <li><a href="#">Store</a></li>
+                  <li class="community"><a href="#">Help The Community</a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="page-footer">
-      <div class="footer-container">
-        <div class="footer-logo"><a href="index.html"><img src="img/logo-reg.png">LaunchingBalloons<span>Operations</span></a></div>
-        <div class="footer-navigation">
-          <ul>
-            <a href="#"><li>Launches</li></a>
-            <a href="#"><li>Forum</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Store</li></a>
-            <a href="#"><li><strong>Help The Community</strong></li></a>
-          </ul>
+      <div class="footer">
+        <div class="spacer clear">
+          <div class="logo"><img src="img/global/logo/logo-reg.png">Launching Balloons<span>Operations</span></div>
+          <div class="affiliates">
+            <ul>
+              <li><a href="#">Get Started</a></li>
+              <li><a href="#">Launches</a></li>
+              <li><a href="#">Forum</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">Help The Community</a></li>
+            </ul>
+          </div>
+          <div class="copyright">&copy; copyright 2014 launchingballoons.com</div>
         </div>
-        <div class="footer-copyright">&#169; copyright 2014 launchingballoons.com</div>
       </div>
     </div>
 

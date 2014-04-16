@@ -6,6 +6,9 @@ $(function () {
             text: 'Weather Balloon Mk3 Flight',
             x: -20 //center
         },
+        credits: {
+            enabled: false
+        },
         subtitle: {
             text: 'Altitude Summary',
             x: -20
@@ -32,12 +35,12 @@ $(function () {
         },
         legend: {
             layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle',
+            align: 'center',
+            verticalAlign: 'bottom',
             borderWidth: 0
         },
         series: [{
-            name: 'Balloon Altitude',
+            name: 'Height',
             data: [537, 14163, 23659, 31774, 41685, 51453, 62115, 74368, 87534, 100002, 74974, 23011, 54.5]
         }]
     });
@@ -49,8 +52,11 @@ $(function () {
             text: 'Weather Balloon Mk3 Tempurture Readings',
             x: -20 //center
         },
+        credits: {
+            enabled: false
+        },
         subtitle: {
-            text: 'Tempurature Summary',
+            text: 'Internal and External Tempurature Summary',
             x: -20
         },
         xAxis: {
@@ -75,15 +81,15 @@ $(function () {
         },
         legend: {
             layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle',
+            align: 'center',
+            verticalAlign: 'bottom',
             borderWidth: 0
         },
         series: [{
-            name: 'Internal Tempurature',
+            name: 'Int. Temp',
             data: [50, 52, 41, 41, 29, 22, 18, 18, 21, 24.75, 13, 24, 53]
         },{
-            name: 'External Tempurature',
+            name: 'Ext. Temp',
             data: [40, 21, -4.5, -37.6, -62.5, -46.3, -27.9, -18.5, -2.1, -54.9, -10, 40, 63]
         }]
     });

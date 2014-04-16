@@ -49,6 +49,14 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   text-transform: none;
 }
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 .navigation img {
   vertical-align: middle;
 }

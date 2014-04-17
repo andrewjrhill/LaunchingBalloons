@@ -1,3 +1,9 @@
+/*
+  =============================================================================
+  Description: Homepage specific styles.
+  =============================================================================
+*/
+
 /* Introduction */
 
   .intro {
@@ -25,6 +31,7 @@
     max-width: 800px;
   }
   .intro button {
+    cursor: pointer;
     font-size: 14px;
     width: 160px;
     text-transform: uppercase;
@@ -37,6 +44,13 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     font-weight: bold;
+  }
+  .intro button:hover{
+    background-color: #fed566;
+    border: 3px solid #fed566;
+    color: #283e56;
+    font-weight: bolder;
+
   }
 
 /* Our Process */

@@ -19,6 +19,12 @@ td {
   text-align: center; 
   border: 1px solid #fff;
 }
+/*
+  =============================================================================
+  Description: Get Started page specific styles.
+  =============================================================================
+*/
+
 .process li {
 	margin-top: 1.5%;
 	padding-left: 0;

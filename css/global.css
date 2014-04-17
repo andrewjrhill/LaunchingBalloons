@@ -1,3 +1,13 @@
+/*
+  =============================================================================
+  Description:  Gobal/Sitewide styles. 
+  Includes:     - Browser Reset
+                - Global Navigation
+                - Page Architecture
+                - Global Footer
+  =============================================================================
+*/
+
 /* Browser Reset */
 
 body {
@@ -67,6 +77,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   width: 190px;
 }
+.navigation .community a:hover {
+  background-color: #fed566;
+  color: #283e56;
+  font-weight: bolder;
+}
 .navigation .desktop {
   float: right;
 }
@@ -112,13 +127,6 @@ h1, h2, h3, h4, h5, h6 {
 .footer .logo img {
   vertical-align: middle;
   padding-right: 14px;
-}
-.footer .logo span {
-  font-size: 14px;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin-left: 235px;
-  display: block;
 }
 .footer .affiliates {
   float: right;

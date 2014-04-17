@@ -4,7 +4,6 @@
 
 //Launch 2: Altitude Data
 $(function () {
-<<<<<<< HEAD
     $('#altitude1').highcharts({
         title: {
             text: 'Weather Balloon Mk2 Flight',
@@ -48,7 +47,6 @@ $(function () {
             data: [164, 13502, 28792, 45541, 73477, 52387, 22553, 4073, -325]
         }]
     });
-=======
   $('#altitude1').highcharts({
     title: {
       text: 'Weather Balloon Mk2 Flight',
@@ -91,12 +89,10 @@ $(function () {
       data: [164, 13502, 28792, 45541, 73477, 52387, 22553, 4073, -325]
     }]
   });
->>>>>>> 004fb45e9b46be6c72b65683dad73f0134309e17
 });
 
 //Launch 2: Temprature Data
 $(function () {
-<<<<<<< HEAD
     $('#temp1').highcharts({
         title: {
             text: 'Weather Balloon Mk2 Tempurture Readings',
@@ -143,7 +139,6 @@ $(function () {
             data: [48, 38, -1.3, -30.8, -24, -48, -5.9, 45, 61]
         }]
     });
-=======
   $('#temp1').highcharts({
     title: {
       text: 'Weather Balloon Mk2 Tempurture Readings',
@@ -189,12 +184,10 @@ $(function () {
       data: [48, 38, -1.3, -30.8, -24, -48, -5.9, 45, 61]
     }]
   });
->>>>>>> 004fb45e9b46be6c72b65683dad73f0134309e17
 });
 
 //Launch 3: Altitude Data
 $(function () {
-<<<<<<< HEAD
     $('#altitude2').highcharts({
         title: {
             text: 'Weather Balloon Mk3 Flight',
@@ -238,7 +231,6 @@ $(function () {
             data: [537, 14163, 23659, 31774, 41685, 51453, 62115, 74368, 87534, 100002, 74974, 23011, 54.5]
         }]
     });
-=======
   $('#altitude2').highcharts({
     title: {
       text: 'Weather Balloon Mk3 Flight',
@@ -281,12 +273,10 @@ $(function () {
       data: [537, 14163, 23659, 31774, 41685, 51453, 62115, 74368, 87534, 100002, 74974, 23011, 54.5]
     }]
   });
->>>>>>> 004fb45e9b46be6c72b65683dad73f0134309e17
 });
 
 //Launch 3: Temprature Data
 $(function () {
-<<<<<<< HEAD
     $('#temp2').highcharts({
         title: {
             text: 'Weather Balloon Mk3 Tempurture Readings',
@@ -334,7 +324,6 @@ $(function () {
         }]
     });
 });
-=======
   $('#temp2').highcharts({
     title: {
       text: 'Weather Balloon Mk3 Tempurture Readings',
@@ -381,4 +370,3 @@ $(function () {
     }]
   });
 });
->>>>>>> 004fb45e9b46be6c72b65683dad73f0134309e17

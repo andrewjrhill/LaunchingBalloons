@@ -32,4 +32,3 @@ $mobilebutton.click(function(){
     closeHamburger();
   }
 });
-

@@ -1,17 +1,50 @@
+table { 
+	width: 50%; 
+	border-collapse: collapse; 
+	margin:auto;
+	border: 1px solid #fff; 
+}
+tr {
+	border: 1px solid #fff;
+}
+th { 
+  background: #FFFFFF; 
+  color: #283E56; 
+  font-weight: bold; 
+  padding: 6px; 
+  text-align: center; 
+}
+td { 
+  padding: 6px; 
+  text-align: center; 
+  border: 1px solid #fff;
+}
 /*
   =============================================================================
   Description: Get Started page specific styles.
   =============================================================================
 */
-
+.img-rsp{
+	max-width: 100%;
+	height: auto;
+}
 .process li {
-	margin: 1.5%;
+	margin-top: 1.5%;
+	padding-left: 0;
+	margin-left: 0;
+}
+.process ol {
+	display: inline-block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .process ol li {
+	text-align: left;
+}
+.process h3 {
 	text-align: center;
 }
-
-
 .collegues h3 {
 	text-align: center;
 	margin: 4%;
@@ -32,25 +65,61 @@
 #required { 
   background: #37B0E9; 
 }
-table { 
+.payload tr:nth-of-type(odd) {
+	border: 1px solid #fff;
+	background: #37B0E9; 
+}
+.payload table { 
 	width: 80%; 
 	border-collapse: collapse; 
 	margin:auto;
-	border: 1px solid #fff; 
-
+	border: 1px solid #283E56; 
 }
-tr {
-	border: 1px solid #fff;
+.payload tr {
+	border: 1px solid #283E56;
 }
-th { 
-  background: #FFFFFF; 
-  color: #283E56; 
+.payload th { 
+  background: #283E56; 
+  color: #fff; 
   font-weight: bold; 
-  padding: 6px; 
+  padding: 2px; 
   text-align: center; 
+  border: 1px solid #283E56;
 }
-td { 
-  padding: 6px; 
+.payload td { 
+  padding: 2px; 
   text-align: center; 
-  border: 1px solid #fff;
+  border: 1px solid #283E56;
+}
+.payload h3 {
+	margin-top: 4%;
+	margin-bottom: 1%;
+}
+.payload ol {
+	display: inline-block;
+	margin: auto;
+	text-align: left;
+	width: 50%;
+}
+.payload li {
+	text-align: left;
+}
+#payloadpart {
+	width: 50%;
+}
+.info-block h3 {
+	text-align: left;
+}
+/*
+  =============================================================================
+  Description: Slider Styles
+  =============================================================================
+*/
+.single-item {
+	width: 40%;
+	margin: auto;
+	margin-top: 10%;
+}
+.slick-prev:before, .slick-next:before {
+	color: #283E56;
 }

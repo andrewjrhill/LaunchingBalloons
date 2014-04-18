@@ -12,6 +12,7 @@
     <link href="css/responsive/global-responsive.css" rel="stylesheet" type="text/css"/>
     <link href="css/home.css" rel="stylesheet" type="text/css"/>
     <link href="css/responsive/home-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="data/slick/slick.css" rel="stylesheet" type="text/css"/>
     <link href="css/getstarted.css" rel="stylesheet" type="text/css"/>
     <link href="css/responsive/getstarted-responsive.css" rel="stylesheet" type="text/css"/>
   </head>
@@ -36,75 +37,191 @@
             </div>
             <div class="collegues">
               <div class="spacer">
-                <h2>Supplies</h2>
-                <p>With each balloon launch there are induvidual and special requirements, however, there are certain things you will want to have in every launch. Below is our recommended list.</p>
+                <h2>Step 1: Supplies</h2>
+                <p>With each balloon launch there are induvidual and special requirements, however, there are certain things you will want to have in every launch. Below is our recommended list. Items listed in light blue are the items absolutly required to launch.</p>
+                <p class="risk">Disclaimer: When purchasing these items it is important to remember.  You could lose all of your equipment.  These items are getting sent near space and there is always the risk of items getting lost or destoryed.  </p>
                 <div id="supplieslist">
+                  <!-- <h3>Not interested in building your own kit?  We offer multiple pre-assembled kits in our Store</h3> -->
                   <table>
                     <thead>
                       <tr>
                         <th>Item</th>
-                        <th>Required</th>
                         <th>Link</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr id="required">
                         <td>Weather Balloon</td>
-                        <td>Yes</td>
-                        <td><a href="http://www.amazon.com/dia-Professional-Weather-Balloon-600g/dp/B004RK2RAU/ref=sr_sp-atf_title_1_3?ie=UTF8&qid=1396882139&sr=8-3&keywords=weather+balloon">Amazon</a></td>
+                        <td><a href="http://www.amazon.com/30ft-Professional-Weather-Balloon-1200g/dp/B00513FWQI">Amazon</a></td>
                       </tr>
                       <tr id="required">
                         <td>Parachute</td>
-                        <td>Yes</td>
                         <td><a href="http://www.the-rocketman.com/recovery.html">Rocket Man Supplier</a></td>
                       </tr>
                       <tr id="required">
                         <td>Lift Gas Hydrogen/Helieum</td>
-                        <td>Yes</td>
                         <td>Local Supplier</td>
                       </tr>
                       <tr id="required">
                         <td>Tracking Device</td>
-                        <td>Yes</td>
                         <td><a href="http://www.amazon.com/dp/B008YD2SQO/ref=cm_gift_hist_link">Amazon</a></td>
                       </tr>
                       <tr id="required">
                         <td>Radar Reflector</td>
-                        <td>Yes</td>
                         <td><a href="http://www.amazon.com/Davis-Emergency-Deluxe-Radar-Reflector/dp/B002MJKNPY">Amazon</a></td>
                       </tr>
                       <tr>
+                        <td>GoPro Hero Camera</td>
+                        <td><a href="http://gopro.com/cameras">GoPro Site</a></td>
+                      </tr>
+                      <tr>
                         <td>Onboard Computer</td>
-                        <td>No</td>
                         <td><a href="http://www.hexpertsystems.com/zlog/Z7/">Hexpert Site</a></td>
                       </tr>
                       <tr>
                         <td>GPS Logger</td>
-                        <td>No</td>
                         <td><a href="http://www.hexpertsystems.com/order.html">Hexpert Site</a></td>
                       </tr>
                       <tr>
                         <td>Ext. Temp Sensor</td>
-                        <td>No</td>
                         <td><a href="http://www.hexpertsystems.com/order.html">Hexpert Site</a></td>
                       </tr>
                       <tr>
                         <td>9v Battery Cable</td>
-                        <td>No</td>
                         <td><a href="http://www.hexpertsystems.com/order.html">Hexpert Site</a></td>
                       </tr>
                       <tr>
                         <td>2gb Micro SD</td>
-                        <td>No</td>
                         <td><a href="http://www.hexpertsystems.com/order.html">Hexpert Site</a></td>
                       </tr>
                       <tr>
                         <td>9v Battery</td>
-                        <td>No</td>
                         <td><a href="http://www.amazon.com/dp/B0046TV5VO/ref=cm_gift_hist_link">Amazon</a></td>
                       </tr>
                     </tbody>
                   </table>
+                </div>
+              </div>
+            </div>
+            <div class="process">
+              <div class="spacer payload">
+                <h2>Step 2: Building Your Payload</h2>
+                <img src="img/getstarted/balloondiagram.png" class="img-rsp">
+                <p>After purchasing all of your required launch supplies above the next step is to build yourself a payload.  In our expeirence the best thing to focus on is decreased wind resistance and weight management.  Each balloon is rated to a specific payload weight and you will need to adjust accordingly.  We made a quick chart below to help explain.</p>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Balloon Size(ft)</th>
+                      <th>Parachute Size(ft)</th>
+                      <th>Weight(lbs)</th>
+                      <th>Decent Speed(mph)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>20ft</td>
+                      <td>3ft</td>
+                      <td>2.1lbs</td>
+                      <td>12.2mph</td>
+                    </tr>
+                    <tr>
+                      <td>20ft</td>
+                      <td>4ft</td>
+                      <td>3.7lbs</td>
+                      <td>12.15mph</td>
+                    </tr>
+                    <tr>
+                      <td>20ft</td>
+                      <td>5ft</td>
+                      <td>5.7lbs</td>
+                      <td>12.04mph</td>
+                    </tr>
+                    <tr>
+                      <td>20ft</td>
+                      <td>6ft</td>
+                      <td>8lbs</td>
+                      <td>12.04mph</td>
+                    </tr>
+                    <tr>
+                      <td>30ft</td>
+                      <td>7ft</td>
+                      <td>11lbs</td>
+                      <td>11.84mph</td>
+                    </tr>
+                    <tr>
+                      <td>30ft</td>
+                      <td>8ft</td>
+                      <td>15lbs</td>
+                      <td>12.15mph</td>
+                    </tr>
+                    <tr>
+                      <td>30ft</td>
+                      <td>9ft</td>
+                      <td>18lbs</td>
+                      <td>11.84mph</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h3>Construction</h3>
+                <p>If you are planning to match our payload and launch design below are the step by step instrucitons.</p>
+                <h3>Parts Required:</h3>
+                <table id="payloadpart">
+                  <thead>
+                    <tr>
+                      <th>Item</th>
+                      <th>Quantity</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.5in PVC Pipe(2ft Length)</td>
+                      <td>x4</td>
+                    </tr>
+                    <tr>
+                      <td>1.5in PVC L-Brackets</td>
+                      <td>x4</td>
+                    </tr>
+                    <tr>
+                      <td>Large Roll of Carpenters String</td>
+                      <td>x1</td>
+                    </tr>
+                    <tr>
+                      <td>Keeper 3/8 in. Quick Link</td>
+                      <td>x2</td>
+                    </tr>
+                    <tr>
+                      <td>Roll of Duct Tape</td>
+                      <td>x1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="single-item">
+                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
+                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
+                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
+                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
+                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
+                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
+                </div>
+              </div>
+            </div>
+            <div class="collegues">
+              <div class="spacer">
+              <h2>Step 3: Selecting Your Launch Location</h2>
+              <p>When selecting your location it is important to keep 3 things in mind.</p>
+              <div class="info-block-container clear">
+                  <div class="info-block">
+                    <h3>Keep the location open</h3>
+                    <div>The first piece to remember when choosing a launch location is ensuring there is nothing for the balloon payload to bump into.  No buildings, trees, powerlines, etc.  Generally open fields or the tops of parking decks have been our winning locations.</div>
+                  </div>
+                  <div class="info-block">
+                    <h3>Let your location know</h3>
+                    <div>Ensuring that the launch site is properly notified is very important.  If you just roll up with a large tank of compressed hydrogen people are gonna have a problem.  A quick call and explination can me the differance between a smooth launch and a trip to the police station.</div>
+                  </div>
+                  <div class="info-block">
+                    <h3>Avoid areas near airports</h3>
+                    <div>When launching it is important to note that you will be sending something up to heights where commercial airliners fly.  This means that if at all possible avoiding launch sites near airports and airstrips is strongly advised.  This wil help prevent any problems that could arise.</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -158,8 +275,8 @@
     <!-- Begin Scripts -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/balloons.js"></script>
-    <script type="text/javascript" src="js/charts.js"></script>
-    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="data/slick/slick.min.js"></script>
     <script type="text/javascript" src="js/exporting.js"></script>
   </body>
 </html>

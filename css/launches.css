@@ -21,7 +21,7 @@
     height: 100%;
 }
 .img-rsp{
-	max-width: 100%;
+	max-width: 70%;
 	height: auto;
 }
 .rawdata li {
@@ -30,8 +30,9 @@
 }
 h3 {
 	font-size: 1.85em;
-	margin-top: 3%;
+	margin-top: 11%;
 	margin-bottom: 3%;
+	font-weight: normal;
 }
 h4 {
 	text-decoration: underline;

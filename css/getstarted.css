@@ -24,7 +24,10 @@ td {
   Description: Get Started page specific styles.
   =============================================================================
 */
-
+.img-rsp{
+	max-width: 100%;
+	height: auto;
+}
 .process li {
 	margin-top: 1.5%;
 	padding-left: 0;
@@ -106,4 +109,17 @@ td {
 }
 .info-block h3 {
 	text-align: left;
+}
+/*
+  =============================================================================
+  Description: Slider Styles
+  =============================================================================
+*/
+.single-item {
+	width: 40%;
+	margin: auto;
+	margin-top: 10%;
+}
+.slick-prev:before, .slick-next:before {
+	color: #283E56;
 }

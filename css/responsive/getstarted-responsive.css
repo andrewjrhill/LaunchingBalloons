@@ -8,5 +8,23 @@
 .process ol {
 	width: 95%;
 }
+.img-rsp{
+	max-width: 90%;
+	height: auto;
+}
+/*
+  =============================================================================
+  Description: Slider Styles
+  =============================================================================
+*/
+.single-item .img-rsp {
+	max-width: 100%v;
+	height: auto;
+}
+.single-item {
+	width: 80%;
+	margin: auto;
+	margin-top: 10%;
+}
 
 }

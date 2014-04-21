@@ -9,6 +9,9 @@ $(function () {
       text: 'Weather Balloon Mk2 Flight',
       x: -20 //center
     },
+    exporting: {
+      enabled: false
+    },
     credits: {
       enabled: false
     },
@@ -54,6 +57,9 @@ $(function () {
     title: {
       text: 'Weather Balloon Mk2 Tempurture Readings',
       x: -20 //center
+    },
+    exporting: {
+      enabled: false
     },
     credits: {
       enabled: false
@@ -104,6 +110,9 @@ $(function () {
       text: 'Weather Balloon Mk3 Flight',
       x: -20 //center
     },
+    exporting: {
+      enabled: false
+    },
     credits: {
       enabled: false
     },
@@ -149,6 +158,9 @@ $(function () {
     title: {
       text: 'Weather Balloon Mk3 Tempurture Readings',
       x: -20 //center
+    },
+    exporting: {
+      enabled: false
     },
     credits: {
       enabled: false

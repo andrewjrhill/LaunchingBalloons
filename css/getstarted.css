@@ -72,10 +72,6 @@ td {
 #required { 
   background: #37B0E9; 
 }
-.payload tr:nth-of-type(odd) {
-	border: 1px solid #fff;
-	/*background: #37B0E9; */
-}
 .payload table { 
 	width: 80%; 
 	border-collapse: collapse; 

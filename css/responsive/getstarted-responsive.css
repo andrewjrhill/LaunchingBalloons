@@ -12,6 +12,13 @@
 	max-width: 90%;
 	height: auto;
 }
+.payload td {
+	padding: .25%;
+	margin: .25%;
+}
+#payloadpart {
+	width: 70%;
+}
 /*
   =============================================================================
   Description: Slider Styles
@@ -25,6 +32,4 @@
 	width: 80%;
 	margin: auto;
 	margin-top: 10%;
-}
-
 }

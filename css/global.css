@@ -29,6 +29,43 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   clear: both;
 }
+/*Underline Animation*/
+
+.ani-under {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 3px;
+}
+.ani-under:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.ani-under:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.desktop  a:before{
+  background-color: #fff;
+}
+.desktop  a:hover:before{
+  color: #fff;
+}
+.footer li > a:before{
+  background-color: #283E56;
+}
+.footer li > a:hover:before{
+  color: #283E56;
+}
 
 /* Navigation */
 
@@ -81,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fed566;
   color: #283e56;
   font-weight: bolder;
+  text-decoration: none;
 }
 .navigation .desktop {
   float: right;

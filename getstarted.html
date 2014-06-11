@@ -106,7 +106,7 @@
             <div class="process">
               <div class="spacer payload">
                 <h2>Step 2: Building Your Payload</h2>
-                <img src="img/getstarted/balloondiagram.png" class="img-rsp">
+                <img src="img/getstarted/balloondiagram2.png" class="img-rsp">
                 <p>After purchasing all of your required launch supplies, you’re ready to build yourself a payload. In our experience, the most important things to focus on are decreased wind resistance and weight management. Each balloon is rated to a specific payload weight and you will need to adjust accordingly. We made a quick chart below to help explain.</p>
                 <table>
                   <thead>
@@ -155,7 +155,7 @@
                   </tbody>
                 </table>
                 <h3>Construction</h3>
-                <p>If you are planning to match our payload and launch design below are the step-by-step instructions.</p>
+                <p>If you are planning to match our payload and launch design below are the supplies needed and some images for reference.</p>
                 <h3>Parts Required:</h3>
                 <table id="payloadpart">
                   <thead>
@@ -165,14 +165,6 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>1.5in PVC Pipe(2ft Length)</td>
-                      <td>x4</td>
-                    </tr>
-                    <tr>
-                      <td>1.5in PVC L-Brackets</td>
-                      <td>x4</td>
-                    </tr>
                     <tr>
                       <td>Large Roll of Carpenters String</td>
                       <td>x1</td>
@@ -185,16 +177,20 @@
                       <td>Roll of Duct Tape</td>
                       <td>x1</td>
                     </tr>
+                    <tr>
+                      <td>Styrofoam Hollow Sphere</td>
+                      <td>x1</td>
+                    </tr>
                   </tbody>
                 </table>
-                <!-- <div class="single-item">
-                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
-                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
-                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
-                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
-                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
-                  <div><img class="img-rsp" src="img/getstarted/test.png"></div>
-                </div> -->
+              </div>
+              <div class="slider">
+                <ul class="slides">
+                  <li class="slide"><img class="img-rsp-slider" src="img/getstarted/slide1.jpg"></li>
+                  <li class="slide"><img class="img-rsp-slider" src="img/getstarted/slide2.jpg"></li>
+                  <li class="slide"><img class="img-rsp-slider" src="img/getstarted/slide3.jpg"></li>
+                  <li class="slide"><img class="img-rsp-slider" src="img/getstarted/slide4.jpg"></li>
+                </ul>
               </div>
             </div>
             <div class="collegues">
@@ -271,10 +267,16 @@
     </div>
 
     <!-- Begin Scripts -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/balloons.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="data/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.glide.min.js"></script>
+    <script>
+      $('.slider').glide({
+          autoplay: false,
+          arrows: true,
+          navigation: true
+      });
+    </script>
     <script type="text/javascript" src="js/exporting.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

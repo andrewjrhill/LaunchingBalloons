@@ -3,33 +3,112 @@
   Description: Get Started page specific responsive styles.
   =============================================================================
 */
+.img-rsp{
+	max-width: 50%;
+	height: auto;
+}
+.img-rsp-slider {
+	max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+	.process ol {
+		width: 95%;
+	}
+	.img-rsp{
+		max-width: 70%;
+		height: auto;
+	}
+	.img-rsp-slider {
+		max-width: 40%;
+	}
+	.payload td {
+		padding: .25%;
+		margin: .25%;
+	}
+	#payloadpart {
+		width: 70%;
+	}
+	/*
+	  =============================================================================
+	  Description: Slider Styles
+	  =============================================================================
+	*/
+	.slider-arrow--left { 
+		margin-left: 0;
+	}
+	.slider-arrow--right { 
+		margin-right: 0;
+	}
+	.slider {
+		height: 500px;
+	}
+}
+
 @media screen and (max-width: 960px) {
 
-.process ol {
-	width: 95%;
+	.process ol {
+		width: 95%;
+	}
+	.img-rsp{
+		max-width: 90%;
+		height: auto;
+	}
+	.img-rsp-slider {
+		max-width: 50%;
+	}
+	.payload td {
+		padding: .25%;
+		margin: .25%;
+	}
+	#payloadpart {
+		width: 70%;
+	}
+	/*
+	  =============================================================================
+	  Description: Slider Styles
+	  =============================================================================
+	*/
+	.slider-arrow--left { 
+		margin-left: 0;
+	}
+	.slider-arrow--right { 
+		margin-right: 0;
+	}
+	.slider {
+		height: 500px;
+	}
 }
-.img-rsp{
-	max-width: 90%;
-	height: auto;
-}
-.payload td {
-	padding: .25%;
-	margin: .25%;
-}
-#payloadpart {
-	width: 70%;
-}
-/*
-  =============================================================================
-  Description: Slider Styles
-  =============================================================================
-*/
-.single-item .img-rsp {
-	max-width: 100%v;
-	height: auto;
-}
-.single-item {
-	width: 80%;
-	margin: auto;
-	margin-top: 10%;
+@media screen and (max-width: 500px) {
+	.process ol {
+		width: 95%;
+	}
+	.img-rsp{
+		max-width: 90%;
+		height: auto;
+	}
+	.img-rsp-slider {
+		max-width: 50%;
+	}
+	.payload td {
+		padding: .25%;
+		margin: .25%;
+	}
+	#payloadpart {
+		width: 60%;
+	}
+	/*
+	  =============================================================================
+	  Description: Slider Styles
+	  =============================================================================
+	*/
+	.slider-arrow--left { 
+		margin-left: 0;
+	}
+	.slider-arrow--right { 
+		margin-right: 0;
+	}
+	.slider {
+		height: 300px;
+	}
+	
 }

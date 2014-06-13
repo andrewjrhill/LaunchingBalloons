@@ -187,7 +187,7 @@ td {
 .slider-arrow--right { 
 	bottom: 50%; 
 	right: 30px; 
-	margin-right: 36px;
+	margin-right: 15%;
 	background-position: -17px 0;
 }
 .slider-arrow--right:hover {
@@ -197,7 +197,7 @@ td {
 .slider-arrow--left { 
 	bottom: 50%; 
 	left: 30px; 
-	margin-left: 36px;
+	margin-left: 15%;
 	background-position: 0 0;
 }
 .slider-arrow--left:hover {
@@ -207,7 +207,7 @@ td {
 
 .slider-nav {
 	position: absolute;
-	bottom: 30px;
+	bottom: 10px;
 	padding-left: 0;
 }
 

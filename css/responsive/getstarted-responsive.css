@@ -8,7 +8,8 @@
 	height: auto;
 }
 .img-rsp-slider {
-	max-width: 100%;
+	max-height: 500px;
+	width: auto;
 }
 @media screen and (max-width: 1200px) {
 	.process ol {
@@ -54,7 +55,7 @@
 		height: auto;
 	}
 	.img-rsp-slider {
-		max-width: 50%;
+		max-width: 70%;
 	}
 	.payload td {
 		padding: .25%;
@@ -87,7 +88,7 @@
 		height: auto;
 	}
 	.img-rsp-slider {
-		max-width: 50%;
+		max-width: 80%;
 	}
 	.payload td {
 		padding: .25%;

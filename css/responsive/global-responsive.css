@@ -1,12 +1,19 @@
-/*
-  =============================================================================
-  Description:  Responsive Gobal/Sitewide styles. 
-  =============================================================================
-*/
+/* ===================================================== */
+/* Page:                                         Globals */
+/* Component:                      Responsive Stylesheet */
+/* Project Name:                      Launching Balloons */
+/* Project URL:                www.launchingballoons.com */
+/* Author(s):       Andrew Hill - andrewjrhill@gmail.com */
+/*                    Cole Gentry - peapod2007@gmail.com */
+/* ===================================================== */
 
 @media screen and (max-width: 960px) {
 
-  /* Responsive Navigation */
+
+/* ==================== */
+/*      NAVIGATION      */
+/* ==================== */
+
   .navigation {
     height: 150px;
     width: 100%;
@@ -69,7 +76,11 @@
     cursor: pointer;
   }
 
-  /* Responsive Footer */
+
+  /* ==================== */
+  /*        FOOTER        */
+  /* ==================== */
+
   .footer {
     padding: 50px 40px 20px 40px;
   }
@@ -85,5 +96,4 @@
   .footer .copyright {
     text-align: center;
   }
-
 }

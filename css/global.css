@@ -7,9 +7,6 @@
 /*                    Cole Gentry - peapod2007@gmail.com */
 /* ===================================================== */
 
-/* Light Blue - #37b0e9 */
-/*  Dark Blue - #283e56 */
-
 
 /* ==================== */
 /*     BROWSER RESET    */
@@ -34,9 +31,6 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   clear: both;
 }
-
-
-
 .underline {
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -48,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 .underline:hover {
   border-color: rgba(255, 255, 255, 1);
 }
+
 
 /* ==================== */
 /*      NAVIGATION      */

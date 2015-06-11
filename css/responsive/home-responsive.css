@@ -9,7 +9,7 @@
 
   /* Responsive Introduction */
   .intro {
-    padding: 40px;
+    padding: 200px 35px 70px 35px;
   }
   .intro h2 {
     font-size: 25px;
@@ -18,13 +18,17 @@
     font-weight: bold;
     font-size: 30px;
   }
+  .intro button {
+    margin: 30px 0 0 0;
+  }
 
   /* Responsive Process */
   .process {
     padding: 40px;
+    text-align: left;
   }
   .process h2 {
-    font-size: 25px;
+    font-size: 24px;
   }
   .process h2 span {
     font-weight: bold;
@@ -37,6 +41,10 @@
   }
   .collegues h2 {
     font-size: 25px;
+    text-align: left !important;
+  }
+  .collegues p {
+    text-align: left !important;
   }
   .collegues .info-block-container {
     padding-top: 0;

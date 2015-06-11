@@ -36,6 +36,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+.underline {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: border-color 0.5s linear;
+  -moz-transition: border-color 0.5s linear;
+  -o-transition: border-color 0.5s linear;
+  -webkit-transition: border-color 0.5s linear;
+}
+.underline:hover {
+  border-color: rgba(255, 255, 255, 1);
+}
+
 /* ==================== */
 /*      NAVIGATION      */
 /* ==================== */
@@ -49,11 +62,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   position: absolute;
   top: 0;
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
   font-size: 14px;
   height: 120px;
-  border-top: 5px solid #37b0e9;
-  background-color: rgba(40, 62, 86, 0.85);
+  border-top: 5px solid rgba(55, 176, 233, 1);
+  background-color: rgba(40, 62, 86, 0.7);
   text-transform: uppercase;
 }
 .navigation .wrapper {
@@ -68,15 +81,16 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
 }
 .logo a {
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
 }
 .navigation img {
   vertical-align: middle;
+  margin-top: -3px;
 }
 .navigation .community a {
   background-color: rgba(0,0,0,0);
-  border: 3px solid #37b0e9;
+  border: 3px solid rgba(55, 176, 233, 1);
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -84,12 +98,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -10px;
   padding: 10px;
   width: 190px;
+  transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -o-transition: background-color 0.5s linear;
+  -webkit-transition: background-color 0.5s linear;
 }
 .navigation .community a:hover {
-  background-color: #fed566;
-  border-color: #fed566;
-  color: #283e56;
-  font-weight: bolder;
+  background-color: rgba(55, 176, 233, 0.4);
 }
 .navigation .desktop {
   float: right;
@@ -101,12 +116,17 @@ h1, h2, h3, h4, h5, h6 {
 .navigation .desktop li {
   float: left;
   list-style-type: none;
-  color: #fff;
-  margin: 0 10px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 20px;
 }
 .navigation .desktop li a {
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
+}
+.navigation .desktop li.community {
+  padding: 0;
+  border: none;
+  margin-right: 0;
 }
 
 
@@ -126,8 +146,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
   padding: 50px 75px 20px 75px;
-  color: #fff;
-  background-color: #393939;;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(57, 57, 57, 1);
 }
 .footer .logo {
   float: left;
@@ -155,20 +175,20 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-decoration: none;
   list-style-type: none;
-  padding: 0 0 20px 30px ;
+  margin-left: 30px ;
 }
 .footer .affiliates li a{
   text-decoration: none;
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
 }
 .footer .copyright {
   float: left;
   width: 100%;
   padding-top: 20px;
-  border-top: 1px solid #fff;
+  border-top: 1px solid rgba(255, 255, 255, 1);
   text-align: right;
   font-weight: bold;
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
   font-size: 12px;
   text-transform: uppercase;
 }

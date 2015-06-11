@@ -47,6 +47,7 @@
     margin: 0 auto;
     text-align: center;
     float: none !important;
+    font-size: 24px !important;
   }
   .mobile {
     margin: 0 auto;
@@ -66,11 +67,6 @@
     width: 200px;
     font-weight: bold;
     cursor: pointer;
-  }
-
-  /* Responsive Content */
-  .content {
-    margin-top: 155px;
   }
 
   /* Responsive Footer */

@@ -1,16 +1,9 @@
-/*
-  =============================================================================
-  Description: Launches page specific styles.
-  =============================================================================
-*/
-
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
     margin-bottom: 3%;
 }
- 
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -49,7 +42,6 @@ h4 {
 	text-decoration: none;
 	font-weight: bold;
 }
-
 .collegues a:visited {
 	color: #386799;
 }

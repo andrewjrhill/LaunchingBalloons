@@ -19,11 +19,6 @@ td {
   text-align: center; 
   border: 1px solid #fff;
 }
-/*
-  =============================================================================
-  Description: Get Started page specific styles.
-  =============================================================================
-*/
 .collegues {
 	border-bottom: 5px solid #37b0e9;
 }
@@ -74,7 +69,6 @@ td {
 }
 .payload tr:nth-of-type(odd) {
 	border: 1px solid #fff;
-	/*background: #37B0E9; */
 }
 .payload table { 
 	width: 80%; 
@@ -120,11 +114,6 @@ td {
 #info-p {
 	text-align: center;
 }
-/*
-  =============================================================================
-  Description: Slider Styles
-  =============================================================================
-*/
 .single-item {
 	width: 40%;
 	margin: auto;

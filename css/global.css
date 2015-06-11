@@ -1,14 +1,19 @@
-/*
-  =============================================================================
-  Description:  Gobal/Sitewide styles. 
-  Includes:     - Browser Reset
-                - Global Navigation
-                - Page Architecture
-                - Global Footer
-  =============================================================================
-*/
+/* ===================================================== */
+/* Page:                                          Global */
+/* Component:                                 Stylesheet */
+/* Project Name:                      Launching Balloons */
+/* Project URL:                www.launchingballoons.com */
+/* Author(s):       Andrew Hill - andrewjrhill@gmail.com */
+/*                    Cole Gentry - peapod2007@gmail.com */
+/* ===================================================== */
 
-/* Browser Reset */
+/* Light Blue - #37b0e9 */
+/*  Dark Blue - #283e56 */
+
+
+/* ==================== */
+/*     BROWSER RESET    */
+/* ==================== */
 
 body {
   margin: 0;
@@ -30,7 +35,10 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-/* Navigation */
+
+/* ==================== */
+/*      NAVIGATION      */
+/* ==================== */
 
 .navigation .mobile {
   display: none;
@@ -44,8 +52,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 14px;
   height: 120px;
-  border-top: 5px solid #37b0e9; /* Light Blue #37b0e9 */
-  background-color: rgba(40, 62, 86, 0.85); /* Dark Blue #283e56 */
+  border-top: 5px solid #37b0e9;
+  background-color: rgba(40, 62, 86, 0.85);
   text-transform: uppercase;
 }
 .navigation .wrapper {
@@ -101,16 +109,25 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-/* Limit */
+
+/* ==================== */
+/*        LIMIT         */
+/* ==================== */
+
 .limit {
   width: 100%;
 }
 
-/* Footer */
+
+
+/* ==================== */
+/*        FOOTER        */
+/* ==================== */
+
 .footer {
   padding: 50px 75px 20px 75px;
-  color: #2e4662;
-  background-color: #37b0e9;
+  color: #fff;
+  background-color: #393939;;
 }
 .footer .logo {
   float: left;
@@ -142,16 +159,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer .affiliates li a{
   text-decoration: none;
-  color: #2e4662;
+  color: #fff;
 }
 .footer .copyright {
   float: left;
   width: 100%;
   padding-top: 20px;
-  border-top: 1px solid #2e4662;
+  border-top: 1px solid #fff;
   text-align: right;
   font-weight: bold;
-  color: #2e4662;
+  color: #fff;
   font-size: 12px;
   text-transform: uppercase;
 }

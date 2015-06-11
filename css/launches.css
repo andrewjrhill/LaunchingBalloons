@@ -29,21 +29,33 @@
 	text-align: center;
 }
 h3 {
-	font-size: 1.85em;
-	margin-top: 11%;
+	font-size: 2.3em;
 	margin-bottom: 3%;
 	font-weight: normal;
+	text-align: center;
 }
 h4 {
 	text-decoration: underline;
 	font-size: 22px;
+	text-align: center;
+	margin-top: 1%;
 }
 .rawdata a {
 	color: #386799;
 	font-weight: bold;
 }
 .rawdata a:hover {
-	color: #386799;
+	color: #386799;;
 	text-decoration: none;
 	font-weight: bold;
+}
+
+.collegues a:visited {
+	color: #386799;
+}
+#altitude1 {
+	margin-bottom: 1%;
+}
+.collegues {
+	border-bottom: 5px solid #37b0e9;
 }

@@ -33,37 +33,37 @@
   /*       PROCESS        */
   /* ==================== */
 
-  .process {
+  .light-section {
     padding: 40px;
     text-align: left;
   }
-  .process h2 {
+  .light-section h2 {
     font-size: 24px;
   }
-  .process h2 span {
+  .light-section h2 span {
     font-weight: bold;
     font-size: 30px;
   }
 
 
   /* ==================== */
-  /*      COLLEGUES       */
+  /*    MEET THE TEAM     */
   /* ==================== */
 
-  .collegues {
+  .dark-section {
     padding: 40px;
   }
-  .collegues h2 {
+  .dark-section h2 {
     font-size: 25px;
     text-align: left !important;
   }
-  .collegues p {
+  .dark-section p {
     text-align: left !important;
   }
-  .collegues .info-block-container {
+  .dark-section .info-block-container {
     padding-top: 0;
   }
-  .collegues .info-block {
+  .dark-section .info-block {
     padding-top: 30px;
     float: none;
     width: 100%;

@@ -1,30 +1,30 @@
-/*
-  =============================================================================
-  Description: Get Started page specific responsive styles.
-  =============================================================================
-*/
+/* ===================================================== */
+/* Page:                                     Get Started */
+/* Component:                      Responsive Stylesheet */
+/* Project Name:                      Launching Balloons */
+/* Project URL:                www.launchingballoons.com */
+/* Author(s):       Andrew Hill - andrewjrhill@gmail.com */
+/*                    Cole Gentry - peapod2007@gmail.com */
+/* ===================================================== */
+
+
 @media screen and (max-width: 960px) {
 
-.process ol {
-	width: 95%;
-}
-.img-rsp{
-	max-width: 90%;
-	height: auto;
-}
-/*
-  =============================================================================
-  Description: Slider Styles
-  =============================================================================
-*/
-.single-item .img-rsp {
-	max-width: 100%v;
-	height: auto;
-}
-.single-item {
-	width: 80%;
-	margin: auto;
-	margin-top: 10%;
-}
+  .light-section ol {
+  	width: 95%;
+  }
+  .img-rsp{
+  	max-width: 90%;
+  	height: auto;
+  }
+  .single-item .img-rsp {
+  	max-width: 100%v;
+  	height: auto;
+  }
+  .single-item {
+  	width: 80%;
+  	margin: auto;
+  	margin-top: 10%;
+  }
 
 }

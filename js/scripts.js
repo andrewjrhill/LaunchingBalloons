@@ -1,8 +1,9 @@
 /* ===================================================== */
 /* Component:                       Global Functionality */
-/* Project Name:                      Baker Hill Digital */
-/* Project URL:                 www.bakerhilldigital.com */
+/* Project Name:                      Launching Balloons */
+/* Project URL:                www.launchingballoons.com */
 /* Author(s):       Andrew Hill - andrewjrhill@gmail.com */
+/*                    Cole Gentry - peapod2007@gmail.com */
 /* ===================================================== */
 
 var launchingBalloons = {

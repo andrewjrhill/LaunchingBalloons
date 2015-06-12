@@ -1,11 +1,33 @@
+/* ===================================================== */
+/* Page:                                     Get Started */
+/* Component:                                 Stylesheet */
+/* Project Name:                      Launching Balloons */
+/* Project URL:                www.launchingballoons.com */
+/* Author(s):       Andrew Hill - andrewjrhill@gmail.com */
+/*                    Cole Gentry - peapod2007@gmail.com */
+/* ===================================================== */
+
+
+/* ==================== */
+/*  FULL IMAGE SECTION  */
+/* ==================== */
+
+.get-started .full-image {
+  background-image: url('../img/global/get-started-compressed.jpg');
+  background-position: 0 -390px;
+}
+.get-started .full-image p {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
 table { 
-	width: 50%; 
-	border-collapse: collapse; 
-	margin:auto;
-	border: 1px solid #fff; 
+  width: 50%; 
+  border-collapse: collapse; 
+  margin:auto;
+  border: 1px solid #fff; 
 }
 tr {
-	border: 1px solid #fff;
+  border: 1px solid #fff;
 }
 th { 
   background: #FFFFFF; 
@@ -19,18 +41,21 @@ td {
   text-align: center; 
   border: 1px solid #fff;
 }
-/*
-  =============================================================================
-  Description: Get Started page specific styles.
-  =============================================================================
-*/
-.collegues {
-	border-bottom: 5px solid #37b0e9;
+.dark-section {
+  border-bottom: 5px solid #37b0e9;
 }
+<<<<<<< HEAD
+=======
+.img-rsp{
+  max-width: 50%;
+  height: auto;
+}
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110
 .single-item .img-rsp{
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
+<<<<<<< HEAD
 /*.process li {
 	margin-top: 1.5%;
 	padding-left: 0;
@@ -41,41 +66,59 @@ td {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+=======
+.light-section li {
+  margin-top: 1.5%;
+  padding-left: 0;
+  margin-left: 0;
 }
-.process ol li {
-	text-align: left;
+.light-section ol {
+  display: inline-block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110
 }
-.process h3 {
-	text-align: center;
+.light-section ol li {
+  text-align: left;
 }
-.collegues h3 {
-	text-align: center;
-	margin: 4%;
-	text-decoration: underline;
+.light-section h3 {
+  text-align: center;
 }
-#supplieslist {
-	margin-top: 2%;
+.dark-section h3 {
+  text-align: center;
+  margin: 4%;
+  text-decoration: underline;
 }
-#supplieslist a {
-	color: #fff;
-	font-weight: bold;
+.supplies-table {
+  margin-top: 2%;
 }
-#supplieslist a:hover {
-	color: #386799;
-	text-decoration: none;
-	font-weight: bold;
+.supplies-table a {
+  color: #fff;
+  font-weight: bold;
+}
+.supplies-table a:hover {
+  color: #386799;
+  text-decoration: none;
+  font-weight: bold;
 }
 #required { 
   background: #37B0E9; 
 }
+<<<<<<< HEAD
+=======
+.payload tr:nth-of-type(odd) {
+  border: 1px solid #fff;
+}
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110
 .payload table { 
-	width: 80%; 
-	border-collapse: collapse; 
-	margin:auto;
-	border: 1px solid #283E56; 
+  width: 80%; 
+  border-collapse: collapse; 
+  margin:auto;
+  border: 1px solid #283E56; 
 }
 .payload tr {
-	border: 1px solid #283E56;
+  border: 1px solid #283E56;
 }
 .payload th { 
   background: #37B0E9; 
@@ -91,27 +134,32 @@ td {
   border: 1px solid #283E56;
 }
 .payload h3 {
-	margin-top: 4%;
-	margin-bottom: 1%;
+  margin-top: 4%;
+  margin-bottom: 1%;
 }
 .payload ol {
-	display: inline-block;
-	margin: auto;
-	text-align: left;
-	width: 50%;
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+  width: 50%;
 }
 .payload li {
+<<<<<<< HEAD
 	text-align: center;
+=======
+  text-align: left;
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110
 }
 #payloadpart {
-	width: 50%;
+  width: 50%;
 }
 .info-block h3 {
-	text-align: center;
+  text-align: center;
 }
 #info-p {
-	text-align: center;
+  text-align: center;
 }
+<<<<<<< HEAD
 /*
   =============================================================================
   Description: Slider Styles
@@ -223,3 +271,13 @@ td {
 
 .slider-nav__item:hover { background: #37B0E9; }
 .slider-nav__item--current { background: #37B0E9; }
+=======
+.single-item {
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+}
+.slick-prev:before, .slick-next:before {
+  color: #283E56;
+}
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110

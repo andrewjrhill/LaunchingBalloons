@@ -11,20 +11,20 @@
 @media screen and (max-width: 960px) {
 
   .light-section ol {
-  	width: 95%;
+    width: 95%;
   }
   .img-rsp{
-  	max-width: 90%;
-  	height: auto;
+    max-width: 90%;
+    height: auto;
   }
   .single-item .img-rsp {
-  	max-width: 100%v;
-  	height: auto;
+    max-width: 100%v;
+    height: auto;
   }
   .single-item {
-  	width: 80%;
-  	margin: auto;
-  	margin-top: 10%;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
   }
 
 }

@@ -7,6 +7,19 @@
 /*                    Cole Gentry - peapod2007@gmail.com */
 /* ===================================================== */
 
+
+/* ==================== */
+/*  FULL IMAGE SECTION  */
+/* ==================== */
+
+.launches .full-image {
+  background-image: url('../img/global/launches-compressed.jpg');
+  background-position: 0 -690px;
+}
+.launches .full-image p {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;

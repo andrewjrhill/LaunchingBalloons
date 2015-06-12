@@ -7,6 +7,19 @@
 /*                    Cole Gentry - peapod2007@gmail.com */
 /* ===================================================== */
 
+
+/* ==================== */
+/*  FULL IMAGE SECTION  */
+/* ==================== */
+
+.get-started .full-image {
+  background-image: url('../img/global/get-started-compressed.jpg');
+  background-position: 0 -390px;
+}
+.get-started .full-image p {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
 table { 
   width: 50%; 
   border-collapse: collapse; 
@@ -28,7 +41,7 @@ td {
   text-align: center; 
   border: 1px solid #fff;
 }
-.collegues {
+.dark-section {
   border-bottom: 5px solid #37b0e9;
 }
 .img-rsp{
@@ -56,19 +69,19 @@ td {
 .light-section h3 {
   text-align: center;
 }
-.collegues h3 {
+.dark-section h3 {
   text-align: center;
   margin: 4%;
   text-decoration: underline;
 }
-#supplieslist {
+.supplies-table {
   margin-top: 2%;
 }
-#supplieslist a {
+.supplies-table a {
   color: #fff;
   font-weight: bold;
 }
-#supplieslist a:hover {
+.supplies-table a:hover {
   color: #386799;
   text-decoration: none;
   font-weight: bold;

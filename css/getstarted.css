@@ -44,14 +44,29 @@ td {
 .dark-section {
   border-bottom: 5px solid #37b0e9;
 }
+<<<<<<< HEAD
+=======
 .img-rsp{
   max-width: 50%;
   height: auto;
 }
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110
 .single-item .img-rsp{
   max-width: 100%;
   height: auto;
 }
+<<<<<<< HEAD
+/*.process li {
+	margin-top: 1.5%;
+	padding-left: 0;
+	margin-left: 0;
+}*/
+.process ol {
+	display: inline-block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+=======
 .light-section li {
   margin-top: 1.5%;
   padding-left: 0;
@@ -62,6 +77,7 @@ td {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110
 }
 .light-section ol li {
   text-align: left;
@@ -89,9 +105,12 @@ td {
 #required { 
   background: #37B0E9; 
 }
+<<<<<<< HEAD
+=======
 .payload tr:nth-of-type(odd) {
   border: 1px solid #fff;
 }
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110
 .payload table { 
   width: 80%; 
   border-collapse: collapse; 
@@ -125,7 +144,11 @@ td {
   width: 50%;
 }
 .payload li {
+<<<<<<< HEAD
+	text-align: center;
+=======
   text-align: left;
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110
 }
 #payloadpart {
   width: 50%;
@@ -136,6 +159,119 @@ td {
 #info-p {
   text-align: center;
 }
+<<<<<<< HEAD
+/*
+  =============================================================================
+  Description: Slider Styles
+  =============================================================================
+*/
+.slider img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slider ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 6%;
+	margin-bottom: 0;
+}
+.slider li {
+	padding: 0;
+}
+.slider {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	overflow: hidden;
+}
+
+.slides {
+	height: 100%;
+
+
+	/* Clear fix */
+	@include clearfix();
+
+	/**
+	 * Prevent blinking issue
+	 * Not tested. Experimental.
+	 */
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
+}
+
+.slide {
+	height: 100%;
+	float: left;
+	clear: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slider-arrow {
+	position: absolute;
+	margin-bottom: -20px;
+	padding: 20px;
+	background-image: url("../img/getstarted/glide-arrows2.png");
+	width: 17px;
+	height: 28px;
+	display: block;
+	padding: 0;
+}
+
+.slider-arrows {
+	/*position: absolute;
+	margin-bottom: -20px;
+	padding: 20px;
+	background-image: url("../img/getstarted/glide-arrows.png");
+	width: 17px;
+	height: 28px;
+	display: block;
+	padding: 0;*/
+}
+
+.slider-arrow--right { 
+	bottom: 50%; 
+	right: 30px; 
+	margin-right: 15%;
+	background-position: -17px 0;
+}
+.slider-arrow--right:hover {
+	background-position: -17px -28px;
+}
+
+.slider-arrow--left { 
+	bottom: 50%; 
+	left: 30px; 
+	margin-left: 15%;
+	background-position: 0 0;
+}
+.slider-arrow--left:hover {
+	background-position: 0 -28px;
+}
+
+
+.slider-nav {
+	position: absolute;
+	bottom: 10px;
+	padding-left: 0;
+}
+
+.slider-nav__item {
+	width: 12px;
+	height: 12px;
+	float: left;
+	clear: none;
+	display: block;
+	margin: 0 5px;
+	background: #283E56;
+}
+
+.slider-nav__item:hover { background: #37B0E9; }
+.slider-nav__item--current { background: #37B0E9; }
+=======
 .single-item {
   width: 40%;
   margin: auto;
@@ -144,3 +280,4 @@ td {
 .slick-prev:before, .slick-next:before {
   color: #283E56;
 }
+>>>>>>> 59129f03eb75af87ddc2432c655b8146194b5110

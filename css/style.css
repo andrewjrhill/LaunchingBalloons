@@ -1242,8 +1242,8 @@ h3.heading-progress {
 /*******fun-facts****/
 
 .fun-facts {
-  background: url('../img/showcase-5.jpg');
-  background-size: cover;
+  background: url('../img/stars.png');
+  background-size: contain;
   background-repeat: no-repeat;
   padding: 80px 0;
 }

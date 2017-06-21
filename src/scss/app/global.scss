@@ -1,0 +1,198 @@
+/* ===================================================== */
+/* Page:                                          Global */
+/* Component:                                 Stylesheet */
+/* Project Name:                      Launching Balloons */
+/* Project URL:                www.launchingballoons.com */
+/* Author(s):       Andrew Hill - andrewjrhill@gmail.com */
+/*                    Cole Gentry - peapod2007@gmail.com */
+/* ===================================================== */
+
+
+/* ==================== */
+/*     BROWSER RESET    */
+/* ==================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+.hide {
+  display: none;
+}
+.clear {
+  content: "";
+  display: table;
+  clear: both;
+}
+.underline {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: border-color 0.5s linear;
+  -moz-transition: border-color 0.5s linear;
+  -o-transition: border-color 0.5s linear;
+  -webkit-transition: border-color 0.5s linear;
+}
+.underline:hover {
+  border-color: rgba(255, 255, 255, 1);
+}
+.risk {
+  color: #D70302;
+  font-weight: bold;
+}
+.full-image {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(40, 62, 86, 1);
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  padding: 235px 75px 110px 75px;
+}
+
+/* ==================== */
+/*      NAVIGATION      */
+/* ==================== */
+
+.navigation .mobile {
+  display: none;
+}
+
+.navigation {
+  min-width: 961px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  height: 120px;
+  border-top: 5px solid rgba(55, 176, 233, 1);
+  background-color: rgba(40, 62, 86, 0.7);
+  text-transform: uppercase;
+}
+.navigation .wrapper {
+  max-width: 1280px;
+  padding: 40px 75px 0 75px;
+  margin: 0 auto;
+}
+.navigation .logo {
+  float: left;
+  font-size: 32px;
+  display: block;
+  text-transform: none;
+}
+.logo a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.navigation img {
+  vertical-align: middle;
+  margin-top: -3px;
+}
+.navigation .community a {
+  background-color: rgba(0,0,0,0);
+  border: 3px solid rgba(55, 176, 233, 1);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-weight: bold;
+  margin-top: -10px;
+  padding: 10px;
+  width: 190px;
+  transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -o-transition: background-color 0.5s linear;
+  -webkit-transition: background-color 0.5s linear;
+}
+.navigation .community a:hover {
+  background-color: rgba(55, 176, 233, 0.4);
+}
+.navigation .desktop {
+  float: right;
+}
+.navigation .desktop ul {
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+.navigation .desktop li {
+  float: left;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 20px;
+}
+.navigation .desktop li a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.navigation .desktop li.community {
+  padding: 0;
+  border: none;
+  margin-right: 0;
+}
+
+
+/* ==================== */
+/*        LIMIT         */
+/* ==================== */
+
+.limit {
+  width: 100%;
+}
+
+
+/* ==================== */
+/*        FOOTER        */
+/* ==================== */
+
+.footer {
+  padding: 50px 75px 20px 75px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(57, 57, 57, 1);
+}
+.footer .logo {
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  text-transform: none;
+  padding-bottom: 20px;
+}
+.footer .logo img {
+  vertical-align: middle;
+  padding-right: 14px;
+}
+.footer .affiliates {
+  float: right;
+}
+.footer .spacer {
+  margin: auto;
+  width: 100%;
+  max-width: 1280px;
+}
+.footer .affiliates li {
+  float: left;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 30px ;
+}
+.footer .affiliates li a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+.footer .copyright {
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  text-align: right;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  text-transform: uppercase;
+}

@@ -3,153 +3,639 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <!-- Meta -->
-  <title>Launching Balloons | Hitch a ride on a weather balloon to photograph space</title>
-  <meta name="description" content="Launching Balloons dedicated to assisting others with photographing our planet from the bottom of a weather balloon.">
-  <meta name="copyright" content="Copyright © Launching Balloons. All Rights Reserved." />
-  <meta name="author" content="Andrew Hill">
-  <meta name="robots" content="index, follow" />
-
-  <!-- Mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Open Graph Tagging -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Launching Balloons">
-  <meta property="og:title" content="Launching Balloons">
-  <meta property="og:description" content="Launching Balloons dedicated to assisting others with photographing our planet from the bottom of a weather balloon.">
-  <meta property="og:url" content="http://www.launchingballoons.com/">
-
-  <!-- Favicons -->
-  <link rel="icon shortcut" type="image/x-icon" href="assets/global/favicon/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/global/favicon/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/global/favicon/32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/global/favicon/96x96.png">
-
-  <!-- Desktop Stylesheets -->
-  <link href="css/app.min.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quick</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="css/animate.css" rel="stylesheet" type="text/css" media="screen">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
+  <!--popups css-->
+  <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 
-<body>
-  <div class="page home">
-    <div class="pusher">
-      <div class="content">
-        <div class="limit">
-
-
-          <!-- ======================= -->
-          <!--      INTRODUCTION       -->
-          <!-- ======================= -->
-
-          <div class="full-image">
-            <div class="spacer">
-              <h2>Interested in seeing Earth from space?</h2>
-              <h2><span>We are a group of friends dedicated to photographing our world from the bottom of a weather balloon.</span></h2>
-              <p>We hope to highlight the pros and cons of launching weather balloons and filming at high altitudes in an attempt to give back to the scientific community with our efforts.</p>
-              <a href="getstarted.html"><button>How to launch</button></a>
-            </div>
+<body data-spy="scroll" data-offset="80">
+  <section id="home" data-stellar-background-ratio="0.5">
+    <!-- <div class="parallax-overlay"></div> -->
+    <div class="home-content text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-offset-5 col-sm-2">
+            <img class="img-responsive" src="img/logo-long.png" alt="">
           </div>
+        </div>
+        <span class="home-top-slide-text hidden-xs">see the world from space</span>
+        <div class="main-flex-slider">
+          <ul class="slides">
+            <li>
+              <h1>Launching <span class="colored-text">balloons</span> </h1>
 
-
-          <!-- ======================= -->
-          <!--        PROCESS          -->
-          <!-- ======================= -->
-
-          <div class="light-section">
-            <div class="spacer">
-              <h2>Our Process</h2>
-              <h3>With each launch we add to our technology and improve our process.</h3>
-              <p>We started with a lot of trial and error and extensive research. As with any scientific pursuit, <span class="risk">there are very serious risks</span> involved with sending a weather balloon into space. We implore you to brush up on our
-                recommended safety tips before persuing this venture any further. We are in no way, shape or form liable or responsible for any injury, damage to property or incidents that may occur as a result of this information. Remember to have fun
-                out there but always <span class="risk">proceed with caution</span> and at your own risk. Good Luck!</p>
-            </div>
+            </li>
+          </ul>
+        </div>
+        <div class="home-link-btn text-center">
+          <p class="scrollto"><a href="#about" class="btn btn-lg btn-dark-2">Get Started</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--home section end-->
+  <section id="navigation">
+    <div class="navbar navbar-inverse navbar-static-top " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"> <img src="img/logo-reg.png" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right scrollto">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Supplies</a></li>
+            <li><a href="#locations">Location</a></li>
+            <li><a href="#launches">Launches</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container -->
+    </div>
+    <!--navbar-default-->
+  </section>
+  <!--navigation section end here-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="center-heading text-center">
+            <h2>About us</h2>
+            <span class="icon"><i class="fa fa-user"></i></span>
           </div>
+          <!--center heading-->
+        </div>
+      </div>
+      <!--center heading-->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+          <p class="lead margin-btm-30">
+            <h2><span>We are a group of friends dedicated to photographing our world from the bottom of a weather balloon.</span></h2>
+            <p>We hope to highlight the pros and cons of launching weather balloons and filming at high altitudes in an attempt to give back to the scientific community with our efforts.</p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="section-padding parallax bg-heading" data-stellar-background-ratio="0.5">
+    <div class="overlay-services"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="center-heading text-center">
+            <h2>Before Getting Started</h2>
+            <span class="icon"><i class="fa fa-bars"></i></span>
+          </div>
+          <!--center heading-->
+        </div>
+      </div>
+      <!--center heading-->
+      <div class="row">
+        <div class="col-md-6 margin-btm-30 wow animated fadeInLeft" data-wow-duration="700ms" data-wow-delay="100ms">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="service-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </div>
+            </div>
+            <!--service-icon col-->
+            <div class="col-md-10">
+              <div class="service-info">
+                <h4>Plan</h4>
+                <p>
+                  Determine your launch date and contact the FAA regarding the launch. This is not normally required for smaller balloon launches, but it is definitely strongly recommended. They will go over your local laws about launching balloons like this as well.
+                </p>
+              </div>
+            </div>
+            <!--service-info-col-->
+          </div>
+        </div>
+        <!--service-col-->
+        <div class="col-md-6 margin-btm-30 wow animated fadeInRight" data-wow-duration="700ms" data-wow-delay="200ms">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="service-icon">
+                <i class="fa fa-bomb"></i>
+              </div>
+            </div>
+            <!--service-icon col-->
+            <div class="col-md-10">
+              <div class="service-info">
+                <h4>Safety is Key</h4>
+                <p>
+                  Find a local gas supplier and read their safety information about Hydrogen and the risks associated with its usage. Hydrogen is extremely flammable and it is very important to know how to handle it properly.
+                </p>
+              </div>
+            </div>
+            <!--service-info-col-->
+          </div>
+        </div>
+        <!--service-col-->
+      </div>
+      <!--services-row-->
+      <div class="divided-50"></div>
+      <div class="row">
+        <div class="col-md-6 margin-btm-30 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="service-icon">
+                <i class="fa fa-users"></i>
+              </div>
+            </div>
+            <!--service-icon col-->
+            <div class="col-md-10">
+              <div class="service-info">
+                <h4>Work Together</h4>
+                <p>
+                  Avoid launching alone. Get a group of friends involved. This is a fun project and it's easier to manage with the extra hands if any problems arise.
+                </p>
+              </div>
+            </div>
+            <!--service-info-col-->
+          </div>
+        </div>
+        <!--service-col-->
+        <div class="col-md-6 margin-btm-30 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="service-icon">
+                <i class="fa fa-plane"></i>
+              </div>
+            </div>
+            <!--service-icon col-->
+            <div class="col-md-10">
+              <div class="service-info">
+                <h4>Talk to the FAA</h4>
+                <p>
+                  Under no circumstances should you launch without talking to and becoming fully breifed by the FAA in your area. You are launching something into federal airspace and can cause incredible damage if safety regulations are not followed.
+                </p>
+              </div>
+            </div>
+            <!--service-info-col-->
+          </div>
+        </div>
+        <!--service-col-->
+      </div>
+      <!--services-row-->
+    </div>
+  </section>
+  <!--services-->
+  <section id="pricing supplies" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="center-heading text-center">
+            <h2 class=" wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">Supplies</h2>
+            <span class="icon"><i class="fa fa-archive"></i></span>
+          </div>
+          <!--center heading-->
+        </div>
+      </div>
+      <!--center heading-->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 margin-btm-30 text-center">
+          <p class="lead wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="200ms">
+            The supplies needed for a project like this can vary, however listed below are the basic things you will need to get started.
+          </p>
+          <p>Disclaimer: When purchasing these items it is important to remember. You could lose all of your equipment. These items are getting sent near space and there is always the risk of items getting lost or destoryed.</p>
+        </div>
+      </div>
+      <div class="divided-50"></div>
+      <div class="row">
+        <div class="col-md-4 margin-btm-30">
+          <div class="plan-wrap wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
+            <div class="price-title">
+              <h4>Balloon</h4>
+            </div>
+            <!--plan title-->
+            <div class="plan-price">
+              <h2><span>$</span>350<span> estimated</span></h2>
+            </div>
+            <!--plan price-->
+            <ul class="plan-features list-unstyled">
+              <li><i class="fa fa-circle-o"></i> 30ft Weather Balloon - <a target="blank_" href="http://amzn.to/2rNiomz">Amazon</a></li>
+              <li><i class="fa fa-fighter-jet"></i> Parachute - <a target="blank_" href="http://amzn.to/2tpheee">Amazon</a></li>
+              <li><i class="fa fa-wifi"></i> Radar Reflector - <a target="blank_" href="http://amzn.to/2tp7ErP">Amazon</a></li>
+              <li><i class="fa fa-code-fork"></i> Carpenters String - <a target="blank_" href="http://amzn.to/2rBdgxA">Amazon</a></li>
+              <li><i class="fa fa-link"></i> Quick Link - <a target="blank_" href="http://amzn.to/2sR5OTk">Amazon</a></li>
+              <li><i class="fa fa-sticky-note-o"></i> Gaffers Tape - <a target="blank_" href="http://amzn.to/2syvqRU">Amazon</a></li>
+              <li><i class="fa fa-ravelry"></i> Styrofoam Hollow Sphere - <a target="blank_" href="http://amzn.to/2sRkotV">Amazon</a></li>
+            </ul>
+            <!--features-->
+            <div class="plan-link">
+              <p>Everything related to the balloon and structure aircraft.</p>
+            </div>
+            <!--plan link-->
+          </div>
+          <!--plan wrap-->
+        </div>
+        <!--plan col-->
+        <div class="col-md-4 margin-btm-30">
+          <div class="plan-wrap popular wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
+            <div class="price-title">
+              <h4>Payload - Preferred</h4>
+            </div>
+            <!--plan title-->
+            <div class="plan-price">
+              <h2><span>$</span>650<span> estimated</span></h2>
+            </div>
+            <!--plan price-->
+            <ul class="plan-features list-unstyled">
+              <li><i class="fa fa-check"></i> GPS Tracker - <a target="blank_" href="http://amzn.to/2rRIoYV">Amazon</a></li>
+              <li><i class="fa fa-check"></i> GoPro Hero5 Black - <a target="blank_" href="http://amzn.to/2tJP2lC">Amazon</a></li>
+              <li><i class="fa fa-check"></i> Onboard Computer - <a target="blank_" href="http://www.hexpertsystems.com/zlog/Z7/">Hexpert</a></li>
+              <li><i class="fa fa-check"></i> Cord Cutter - <a target="blank_" href="http://www.hexpertsystems.com/FETsw/">Hexpert</a></li>
+              <li><i class="fa fa-check"></i> 2gb Micro SD - <a target="blank_" href="http://amzn.to/2sSEvHM">Amazon</a></li>
+              <li><i class="fa fa-check"></i> 9v Battery - <a target="blank_" href="http://amzn.to/2rMV7AZ">Amazon</a></li>
+            </ul>
+            <!--features-->
+            <div class="plan-link">
+              <p>Top notch payload kit that should get you up to 100,000 feet and gives you the best chance at reclaiming your equipment.</p>
+            </div>
+            <!--plan link-->
+          </div>
+          <!--plan wrap-->
+        </div>
+        <!--plan col-->
+        <div class="col-md-4 margin-btm-30">
+          <div class="plan-wrap wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="600ms">
+            <div class="price-title">
+              <h4>Payload - Budget</h4>
+            </div>
+            <!--plan title-->
+            <div class="plan-price">
+              <h2><span>$</span>300<span> sestimated</span></h2>
+            </div>
+            <!--plan price-->
+            <ul class="plan-features list-unstyled">
+              <li><i class="fa fa-check"></i> GSM Tracker - <a target="blank_" href="http://amzn.to/2tJRngb">Amazon</a></li>
+              <li><i class="fa fa-check"></i> GoPro Hero Session - <a target="blank_" href="http://amzn.to/2tpo1UX">Amazon</a></li>
+              <li><i class="fa fa-check"></i> Onboard Computer - <a target="blank_" href="http://www.hexpertsystems.com/zlog/Z7/">Hexpert</a></li>
+              <li><i class="fa fa-check"></i> 2gb Micro SD - <a target="blank_" href="http://amzn.to/2sSEvHM">Amazon</a></li>
+              <li><i class="fa fa-check"></i> 9v Battery - <a target="blank_" href="http://amzn.to/2rMV7AZ">Amazon</a></li>
+            </ul>
+            <!--features-->
+            <div class="plan-link">
+              <p>Budget payload kit that should get you up to 100,000 feet however with only GSM tracking you will have a greater risk of losing equipment.</p>
+            </div>
+            <!--plan link-->
+          </div>
+          <!--plan wrap-->
+        </div>
+        <!--plan col-->
+      </div>
+      <div class="center-heading text-center">
+        <h2 class=" wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">Diagram</h2>
+        <span class="icon"><i class="fa fa-pencil"></i></span>
+        <p>After purchasing all of your required launch supplies above the next step is to build yourself a payload. In our expeirence the best thing to focus on is decreased wind resistance and weight management. Each balloon is rated to a specific payload
+          weight and you will need to adjust accordingly. We made a quick chart below our digram to help explain.</p>
+      </div>
+      <div class="row margin-btm-30 ">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <img class="img-responsive" src="img/balloon-diagram.png" alt="">
+        </div>
+      </div>
+      <div class="row margin-btm-30">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Balloon Size(ft)</th>
+                <th>Parachute Size(ft)</th>
+                <th>Weight(lbs)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>20ft</td>
+                <td>3ft</td>
+                <td>2.1lbs</td>
+              </tr>
+              <tr>
+                <td>20ft</td>
+                <td>4ft</td>
+                <td>3.7lbs</td>
+              </tr>
+              <tr>
+                <td>20ft</td>
+                <td>5ft</td>
+                <td>5.7lbs</td>
+              </tr>
+              <tr>
+                <td>20ft</td>
+                <td>6ft</td>
+                <td>8lbs</td>
+              </tr>
+              <tr>
+                <td>30ft</td>
+                <td>7ft</td>
+                <td>11lbs</td>
+              </tr>
+              <tr>
+                <td>30ft</td>
+                <td>8ft</td>
+                <td>15lbs</td>
+              </tr>
+              <tr>
+                <td>30ft</td>
+                <td>9ft</td>
+                <td>18lbs</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="locations" class="center-heading text-center">
+        <h2 class=" wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">Selecting a Launch Location</h2>
+        <span class="icon"><i class="fa fa-globe"></i></span>
+        <p>When selecting your location it is important to keep 3 things in mind.</p>
+      </div>
+      <div class="row services">
+        <div class="col-md-4 margin-btm-30">
+          <div class="service-box wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+            <i class="fa fa-tree"></i>
+            <h3>Keep the location open</h3>
+            <p>Ensure that there is nothing for the balloon payload to bump into. Choose a spot away from buildings, trees, powerlines, etc. Generally open fields or the tops of parking decks have been our winning locations.</p>
+          </div>
+        </div>
+        <!--service col end-->
+        <div class="col-md-4 margin-btm-30">
+          <div class="service-box wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
+            <i class="fa fa-phone"></i>
+            <h3>Let your location know</h3>
+            <p>Notifying someone that you’re launching from this site is very important. If you just roll up with a large tank of compressed hydrogen, people are going to have a problem. A quick call and explanation can mean the difference between a smooth
+              launch and a trip to the police station.</p>
+          </div>
+        </div>
+        <!--service col end-->
+        <div class="col-md-4 margin-btm-30">
+          <div class="service-box wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
+            <i class="fa fa-plane"></i>
+            <h3>Avoid areas near airports</h3>
+            <p>You are essentially sending an object up to heights where commercial airliners fly. This means you need to avoid launch sites near airports and airstrips to avoid serious complications.</p>
+          </div>
+        </div>
+        <!--service col end-->
 
-
-          <!-- ======================= -->
-          <!--     MEET THE TEAM       -->
-          <!-- ======================= -->
-
-          <div class="dark-section meet-the-team">
-            <div class="spacer">
-              <h2>Meet the Team</h2>
-              <div class="info-block-container clear">
-                <div class="info-block">
-                  <img src="assets/collegues/cole.png" alt="Image of Cole Gentry">
-                  <div class="name"><a href="http://www.colegentry.io" target="_blank">Cole Gentry</a><span>Founder, Engineer</span></div>
-                  <div>A founding member of the team, Cole is the lead engineer and mechanic on our team. Having built the vast majority of our projects, Cole is an invaluable asset to the team in ensuring our projects continue to be as safe and reliable as
-                    possible.
-                  </div>
-                </div>
-                <div class="info-block">
-                  <img src="assets/collegues/andrew.png" alt="Image of Andrew Hill">
-                  <div class="name"><a href="http://www.andrewjrhill.com" target="_blank">Andrew Hill</a><span>Founder, Developer</span></div>
-                  <div>A founding member of the team, Andrew brings a wealth of enthusiasm and research to the team to ensure optimal designs. Assisting with reasearch and development, Andrew helps ensure the continue to launch with the best results possible.</div>
-                </div>
-                <div class="info-block">
-                  <img src="assets/collegues/lee.png" alt="Image of Lee Wilson">
-                  <div class="name"><a href="https://www.linkedin.com/in/carlleewilson" target="_blank">Lee Wilson</a><span>Producer, Space Guru</span></div>
-                  <div>Having joined the team on the third planned launch, Lee brings a host of information about space and physics to the table and we welcome his friendship and contributions to the team.</div>
-                </div>
+      </div>
+    </div>
+  </section>
+  <!--price end-->
+  <section class="fun-facts parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 margin-btm-30 text-center">
+          <div class="fact-inner">
+            <h1><span class="counter">100000</span>+</h1>
+            <h3>Max Altitude We Reached</h3>
+          </div>
+        </div>
+        <!--facts col-->
+        <div class="col-md-6 margin-btm-30 text-center">
+          <div class="fact-inner">
+            <h1><span class="counter">3</span></h1>
+            <h3>Complete Launches</h3>
+          </div>
+        </div>
+        <!--facts col-->
+      </div>
+    </div>
+  </section>
+  <!--fun facts-->
+  <section id="work launches" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="center-heading text-center">
+            <h2 class=" wow animated bounceIn" data-wow-duration="700ms" data-wow-delay="100ms">Our Launches</h2>
+            <span class="icon"><i class="fa fa-image"></i></span>
+          </div>
+          <!--center heading-->
+        </div>
+      </div>
+      <!--center heading-->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <p class="lead margin-btm-30">
+            Our reccomendations for equipment come directly from our exepriences in the field. With 3 successful launches under our belt we wanted to share what worked for us.
+          </p>
+        </div>
+      </div>
+      <div class="divided-50"></div>
+      <div class="row">
+        <div id="work-slide" class="owl-carousel">
+          <div>
+            <div class="col-md-6 margin-btm-30">
+              <iframe src="http://player.vimeo.com/video/77976814" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+              <div class="work-detail">
+                <h1>Launch #1</h1>
+                <p>
+                  Our first and most rookie launch consisted of a payload with just a camera and GPS tracker. We kept it simple for this one, with our only goal being to get some visual data and to reclaim our assets. It was extremely successful launch and gave us an opportunity
+                  to learn a great deal about balloon launching and retrieval.
+                </p>
+                <p><strong>Altitude:</strong> Unknown</p>
+                <p><strong>Equipment:</strong> GPS Tracker / Camera </p>
               </div>
             </div>
           </div>
+          <!--testimonials item like paragraph-->
+          <div>
+
+            <div class="col-md-6 margin-btm-30">
+              <div class="work-detail">
+                <h1>Launch #2</h1>
+                <p>
+                  Our payload on the first launch experienced a lot of spinning and shaking so the video wasn’t as clean as we’d have liked. Our next goal then was to make our payload more stable so we’d have better quality video results.
+                </p>
+                <p>
+                  In addition, we added a small piece of hardware from a company called Hexpert Systems. This little on-board computer allowed us to track our altitude as well as temperature and pressure data throughout the flight.
+                </p>
+                <p>
+                  Unfortunately our new method of payload design did not provide us with any sort of help in relation to our stabilization problems. So we had to go back to the drawing board on that. On the upside, however, we were able to pull some of the interesting
+                  data listed below.
+                </p>
+                <p><strong>Altitude:</strong> 73,477ft</p>
+                <p><strong>Equipment:</strong> Camera / Tracker / Onboard Computer</p>
+                <p><a href="data/launch2data.csv" class="btn btn-dark">Raw Data</a></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <iframe src="http://player.vimeo.com/video/92098047" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+          <!--testimonials item like paragraph-->
+          <div>
+            <div class="col-md-6 margin-btm-30">
+              <iframe src="http://player.vimeo.com/video/85256561" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+              <div class="work-detail">
+                <h1>Launch #3</h1>
+                <p>
+                  After our first two launches, we really wanted to do something to set this next launch apart from the rest. We wanted quality HD footage as well as some serious logging data this time. After some serious research and development we created our most efficient
+                  payload to date.
+                </p>
+                <p>
+                  This unit had exponentially less wind resistance and focused closely on weight distribution. It also had increased tether lengths between the balloon itself and the payload. All of these factors combined provided us with the best video footage we have
+                  ever captured.
+                </p>
+                <p>
+                  To bring more scientific data back we also added a GPS logger in addition to our GPS tracker. The logger plotted our data for the whole flight so we could see exactly where the balloon had traveled. All of this data is captured below.
+                </p>
+                <p><strong>Altitude:</strong> 100,002ft</p>
+                <p><strong>Equipment:</strong> Camera / Tracker / Onboard Computer</p>
+                <p><a href="data/launch3data.csv" class="btn btn-dark">Raw Data</a></p>
+                <p><a href="data/launch3.kml" class="btn btn-dark">Google KML</a></p>
+              </div>
+            </div>
+          </div>
+          <!--testimonials item like paragraph-->
         </div>
+      </div>
+      <!--portfolio carousel slide use for single item detail-->
+    </div>
+  </section>
+  <!--work-->
+  <div class="cta-3">
+    <div class="container text-center">
+      <!-- Google Ad Script 1 of 3 on this page -->
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- Launching Balloons - Get Started -->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0523971861051053" data-ad-slot="9097994593" data-ad-format="auto"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
 
+      </script>
+    </div>
+  </div>
+  <!--cta-3-->
 
-        <!-- ======================= -->
-        <!--       NAVIGATION        -->
-        <!-- ======================= -->
-
-        <div class="navigation">
-          <div class="wrapper">
-            <div class="logo">
-              <a href="index.html"><img src="./assets/global/logo/logo-reg.png"/>
-                  LaunchingBalloons</a>
-            </div>
-            <div class="mobile">
-              <div class="button close"><a>&#9776;</a></div>
-              <ul>
-                <li><a href="launches.html">Launches</a></li>
-                <li class="last"><a href="getstarted.html">Get Started</a></li>
-              </ul>
-            </div>
-            <div class="desktop">
-              <ul>
-                <li class="underline"><a href="launches.html">Launches</a></li>
-                <li class="community"><a href="getstarted.html">Get Started</a></li>
-              </ul>
-            </div>
+  <section id="team" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="center-heading text-center">
+            <h2>Meet the team</h2>
+            <span class="icon"><i class="fa fa-user"></i></span>
+          </div>
+          <!--center heading-->
+        </div>
+      </div>
+      <!--center heading-->
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <div class="team-col wow animated fadeInLeft" data-wow-duration="700ms" data-wow-delay="100ms">
+            <img src="img/cole.png" alt="">
+            <h4>Cole Gentry</h4>
+            <span>Founder and Builder</span>
+            <p>A founding member of the team, Cole is the lead engineer and mechanic on our team. Having built the vast majority of our projects, Cole is an invaluable asset to the team in ensuring our projects continue to be as safe and reliable as possible.</p>
+          </div>
+        </div>
+        <!--team col-->
+        <div class="col-sm-4">
+          <div class="team-col wow animated fadeInLeft" data-wow-duration="700ms" data-wow-delay="200ms">
+            <img src="img/andrew.png" alt="">
+            <h4>Andrew Hill</h4>
+            <span>Founder and Developer</span>
+            <p>A founding member of the team, Andrew brings a wealth of enthusiasm and research to the team to ensure optimal designs. Assisting with reasearch and development, Andrew helps ensure the continue to launch with the best results possible.</p>
           </div>
         </div>
       </div>
     </div>
+  </section>
+  <!--team-->
 
 
-    <!-- ======================= -->
-    <!--         FOOTER          -->
-    <!-- ======================= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 margin-btm-30">
+          <!-- Google Ad Script 2 of 3 on this page -->
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- Launching Balloons - Get Started -->
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0523971861051053" data-ad-slot="9097994593" data-ad-format="auto"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
 
-    <div class="footer">
-      <div class="spacer clear">
-        <div class="logo"><img src="assets/global/logo/logo-reg.png">LaunchingBalloons</div>
-        <div class="affiliates">
-          <ul>
-            <li class="underline"><a href="getstarted.html">Get Started</a></li>
-            <li class="underline"><a href="launches.html">Launches</a></li>
-          </ul>
+          </script>
         </div>
-        <div class="copyright">&copy; copyright 2017 launchingballoons.com</div>
       </div>
     </div>
+  </footer>
+  <!--footer-->
+
+  <div class="footer-btm">
+    <!-- <ul class="footer-nav list-inline text-center">
+      <li><a href="#">Github</a></li>
+    </ul> -->
+    <div class="copyright text-center">
+      Copyright &copy; 2017. LaunchingBalloons.com. Developed by <a href="#">Cole Gentry</a> and <a href="#">Andrew Hill</a>
+    </div>
   </div>
+  <!--footer-btm-->
+  <!--back to top-->
+  <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+  <!--back to top end-->
+  <!--scripts and plugins -->
+  <!--must need plugin jquery-->
+  <script src="js/jquery.min.js"></script>
+  <!--bootstrap js plugin-->
+  <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <!--easing plugin for smooth scroll-->
+  <script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+  <script src="js/jquery.sticky.js" type="text/javascript"></script>
+  <!--digit countdown plugin-->
+  <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+  <!--on scroll animation-->
+  <script src="js/wow.min.js" type="text/javascript"></script>
+  <!--easy pie charts-->
+  <script src="js/waypoints.min.js" type="text/javascript"></script>
+  <script src="js/easypiechart.js" type="text/javascript"></script>
+  <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+  <script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
+  <script src="js/jquery.stellar.min.js" type="text/javascript"></script>
+  <!--owl carousel slider-->
+  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+  <!--twitter feed-->
+  <script src="js/tweetie.min.js" type="text/javascript"></script>
+  <!--popup js-->
+  <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+  <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
 
-  <!-- Scripts -->
-  <script type="text/javascript" src="js/lib.min.js"></script>
-  <script type="text/javascript" src="js/app.min.js"></script>
+  <!--valid / working contact form js-->
+  <script src="js/contact_me.js" type="text/javascript"></script>
+  <script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
+  <!--customizable plugin edit according to your needs-->
 
+  <script src="js/custom.js" type="text/javascript"></script>
   <!-- Analytics -->
   <script>
     (function(i, s, o, g, r, a, m) {
